@@ -1,0 +1,3163 @@
+Archive member included because of file (symbol)
+
+lib_generic/libgeneric.a(string.o)
+                              common/ace_sha1.o (memcpy)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+                              cpu/arm_cortexa9/start.o (copy_uboot_to_ram)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+                              cpu/arm_cortexa9/start.o (do_irq)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+                              cpu/arm_cortexa9/start.o (onenand_bl2_copy)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+                              cpu/arm_cortexa9/start.o (movi_uboot_copy)
+lib_arm/libarm.a(board.o)     cpu/arm_cortexa9/start.o (start_armboot)
+drivers/mmc/libmmc.a(mmc.o)   cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o) (movi_write)
+common/libcommon.a(cmd_bdinfo.o)
+                              (__u_boot_cmd_bdinfo)
+common/libcommon.a(cmd_boot.o)
+                              (__u_boot_cmd_go)
+common/libcommon.a(cmd_bootm.o)
+                              lib_arm/libarm.a(board.o) (load_addr)
+common/libcommon.a(cmd_console.o)
+                              (__u_boot_cmd_coninfo)
+common/libcommon.a(cmd_echo.o)
+                              (__u_boot_cmd_echo)
+common/libcommon.a(cmd_elf.o)
+                              common/libcommon.a(cmd_bootm.o) (do_bootvx)
+common/libcommon.a(cmd_ext2.o)
+                              (__u_boot_cmd_ext2ls)
+common/libcommon.a(cmd_fastboot.o)
+                              (__u_boot_cmd_fastboot)
+common/libcommon.a(cmd_fat.o)
+                              (__u_boot_cmd_fatload)
+common/libcommon.a(cmd_help.o)
+                              (__u_boot_cmd_help)
+common/libcommon.a(cmd_itest.o)
+                              (__u_boot_cmd_itest)
+common/libcommon.a(cmd_load.o)
+                              (__u_boot_cmd_loads)
+common/libcommon.a(cmd_max8997.o)
+                              (__u_boot_cmd_max8997)
+common/libcommon.a(cmd_mdmupgrade.o)
+                              (__u_boot_cmd_mdmup)
+common/libcommon.a(cmd_mem.o)
+                              (__u_boot_cmd_md)
+common/libcommon.a(cmd_misc.o)
+                              (__u_boot_cmd_sleep)
+common/libcommon.a(cmd_mmc.o)
+                              common/libcommon.a(cmd_fastboot.o) (do_mmcops)
+common/libcommon.a(cmd_mmc_fdisk.o)
+                              common/libcommon.a(cmd_fastboot.o) (get_mmc_part_info)
+common/libcommon.a(cmd_movi.o)
+                              common/libcommon.a(cmd_fastboot.o) (do_movi)
+common/libcommon.a(cmd_nvedit.o)
+                              lib_arm/libarm.a(board.o) (getenv_r)
+common/libcommon.a(cmd_source.o)
+                              (__u_boot_cmd_source)
+common/libcommon.a(cmd_usbd.o)
+                              (__u_boot_cmd_dnw)
+common/libcommon.a(cmd_version.o)
+                              (__u_boot_cmd_version)
+common/libcommon.a(cmd_ximg.o)
+                              (__u_boot_cmd_imxtract)
+common/libcommon.a(command.o)
+                              common/libcommon.a(cmd_itest.o) (cmd_get_data_size)
+common/libcommon.a(console.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o) (printf)
+common/libcommon.a(decompress_ext4.o)
+                              common/libcommon.a(cmd_fastboot.o) (check_compress_ext4)
+common/libcommon.a(dlmalloc.o)
+                              drivers/mmc/libmmc.a(mmc.o) (free)
+common/libcommon.a(env_auto.o)
+                              lib_arm/libarm.a(board.o) (env_init)
+common/libcommon.a(env_common.o)
+                              common/libcommon.a(cmd_nvedit.o) (env_get_addr)
+common/libcommon.a(exports.o)
+                              lib_arm/libarm.a(board.o) (jumptable_init)
+common/libcommon.a(image.o)   common/libcommon.a(cmd_ximg.o) (image_multi_count)
+common/libcommon.a(main.o)    drivers/mmc/libmmc.a(mmc.o) (run_command)
+common/libcommon.a(s_record.o)
+                              common/libcommon.a(cmd_load.o) (srec_decode)
+common/libcommon.a(stdio.o)   common/libcommon.a(cmd_console.o) (stdio_get_list)
+common/libcommon.a(xyzModem.o)
+                              common/libcommon.a(cmd_load.o) (xyzModem_error)
+board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                              lib_arm/libarm.a(board.o) (board_init)
+lib_generic/libgeneric.a(crc16.o)
+                              common/libcommon.a(xyzModem.o) (cyg_crc16)
+lib_generic/libgeneric.a(crc32.o)
+                              common/libcommon.a(cmd_mem.o) (crc32)
+lib_generic/libgeneric.a(display_options.o)
+                              lib_arm/libarm.a(board.o) (print_size)
+lib_generic/libgeneric.a(gunzip.o)
+                              common/libcommon.a(cmd_bootm.o) (gunzip)
+lib_generic/libgeneric.a(net_utils.o)
+                              lib_arm/libarm.a(board.o) (string_to_ip)
+lib_generic/libgeneric.a(vsprintf.o)
+                              lib_arm/libarm.a(board.o) (simple_strtoul)
+lib_generic/libgeneric.a(zlib.o)
+                              lib_generic/libgeneric.a(gunzip.o) (inflateInit2_)
+lib_generic/libgeneric.a(ctype.o)
+                              lib_generic/libgeneric.a(display_options.o) (_ctype)
+lib_generic/libgeneric.a(div64.o)
+                              lib_generic/libgeneric.a(vsprintf.o) (__div64_32)
+cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+                              common/libcommon.a(cmd_elf.o) (dcache_enable)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+                              common/libcommon.a(cmd_load.o) (serial_setbrg)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                              common/libcommon.a(cmd_usbd.o) (s3c_usbc_activate)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+                              lib_arm/libarm.a(board.o) (print_cpuinfo)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                              common/libcommon.a(cmd_fastboot.o) (fastboot_shutdown)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o) (PMIC_InitIp)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o) (GPIO_Init)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o) (I2C_RecvEx)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o) (SYSC_GetClkFreq)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o) (get_ARM_CLK)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+                              common/libcommon.a(cmd_max8997.o) (lowlevel_init_max8997)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+                              cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o) (setup_hsmmc_cfg_gpio)
+cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+                              lib_arm/libarm.a(board.o) (recovery_preboot)
+lib_arm/libarm.a(bootm.o)     common/libcommon.a(cmd_bootm.o) (do_bootm_linux)
+lib_arm/libarm.a(cache.o)     common/libcommon.a(cmd_elf.o) (flush_cache)
+fs/fat/libfat.a(fat.o)        common/libcommon.a(cmd_fat.o) (file_fat_detectfs)
+fs/ext2/libext2fs.a(ext2fs.o)
+                              common/libcommon.a(cmd_ext2.o) (ext2fs_format)
+fs/ext2/libext2fs.a(dev.o)    fs/ext2/libext2fs.a(ext2fs.o) (ext2fs_devread)
+disk/libdisk.a(part.o)        fs/fat/libfat.a(fat.o) (dev_print)
+disk/libdisk.a(part_dos.o)    disk/libdisk.a(part.o) (test_part_dos)
+drivers/mmc/libmmc.a(s3c_hsmmc.o)
+                              cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o) (smdk_s3c_hsmmc_init)
+drivers/mmc/libmmc.a(s5p_mshc.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o) (mshci_fifo_deinit)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o) (__aeabi_uidiv)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+                              common/libcommon.a(cmd_mem.o) (__aeabi_idiv)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+                              lib_generic/libgeneric.a(vsprintf.o) (__aeabi_llsr)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_dadd)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_dmul)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_d2f)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_ui2f)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_fmul)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o) (__aeabi_fcmple)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+                              cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o) (__aeabi_f2uiz)
+/home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+                              /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o) (__div0)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0xc3e00000    0x2a6f0
+ cpu/arm_cortexa9/start.o(.text)
+ .text          0xc3e00000      0x760 cpu/arm_cortexa9/start.o
+                0xc3e00010                _start
+                0xc3e00050                _end_vect
+                0xc3e00058                _armboot_start
+                0xc3e0005c                _bss_start
+                0xc3e00060                _bss_end
+                0xc3e00294                copy_from_nand
+                0xc3e002e0                theLastJump
+                0xc3e005c0                arm_cache_flush
+                0xc3e005e0                v7_flush_dcache_all
+                0xc3e00680                disable_l2cache
+                0xc3e006a0                enable_l2cache
+                0xc3e006c0                set_l2cache_auxctrl
+                0xc3e006e0                set_l2cache_auxctrl_cycle
+ cpu/arm_cortexa9/s5pc210/cpu_init.o(.text)
+ .text          0xc3e00760      0x388 cpu/arm_cortexa9/s5pc210/cpu_init.o
+                0xc3e00780                mem_ctrl_asm_init_ddr3
+ board/samsung/smdkc210/lowlevel_init.o(.text)
+ .text          0xc3e00ae8      0x7ac board/samsung/smdkc210/lowlevel_init.o
+                0xc3e00b1c                lowlevel_init
+                0xc3e00f80                uart_asm_init
+                0xc3e01024                nand_asm_init
+ common/ace_sha1.o(.text)
+ .text          0xc3e01294       0xc4 common/ace_sha1.o
+                0xc3e01294                ace_hash_sha1_digest
+ *(.text)
+ .text          0xc3e01358      0x6bc lib_generic/libgeneric.a(string.o)
+                0xc3e01358                strcpy
+                0xc3e01374                strncpy
+                0xc3e0139c                strcat
+                0xc3e013cc                strncat
+                0xc3e01428                strcmp
+                0xc3e01458                strncmp
+                0xc3e014a0                strchr
+                0xc3e014cc                strrchr
+                0xc3e01508                strlen
+                0xc3e01528                strnlen
+                0xc3e01550                strspn
+                0xc3e01594                strpbrk
+                0xc3e015cc                strtok
+                0xc3e01698                strsep
+                0xc3e016fc                strswab
+                0xc3e01744                memset
+                0xc3e017b8                bcopy
+                0xc3e017e0                memcpy
+                0xc3e0184c                memmove
+                0xc3e018a8                memcmp
+                0xc3e018e0                memscan
+                0xc3e01910                strstr
+                0xc3e01990                memchr
+                0xc3e019bc                strdup
+ .text          0xc3e01a14       0xd0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+                0xc3e01a14                copy_uboot_to_ram
+ .text          0xc3e01ae4      0x5e4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+                0xc3e01ae4                enable_interrupts
+                0xc3e01ae8                disable_interrupts
+                0xc3e01af0                interrupt_init
+                0xc3e01b5c                reset_timer
+                0xc3e01b80                get_timer
+                0xc3e01bd0                set_timer
+                0xc3e01be0                udelay
+                0xc3e01ccc                reset_timer_masked
+                0xc3e01cf0                get_timer_masked
+                0xc3e01d38                udelay_masked
+                0xc3e01e0c                get_ticks
+                0xc3e01e58                get_tbclk
+                0xc3e01e70                show_regs
+                0xc3e01fb0                bad_mode
+                0xc3e01fcc                do_irq
+                0xc3e01ff0                do_fiq
+                0xc3e02014                do_not_used
+                0xc3e02038                do_data_abort
+                0xc3e0205c                do_prefetch_abort
+                0xc3e02080                do_software_interrupt
+                0xc3e020a4                do_undefined_instruction
+ .text          0xc3e020c8      0x1cc cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+                0xc3e020c8                onenand_readw
+                0xc3e020d0                onenand_writew
+                0xc3e020d8                onenand_loadpage
+                0xc3e0211c                onenand_isbad
+                0xc3e02174                onenand_readpage
+                0xc3e021ec                onenand_bl2_copy
+ .text          0xc3e02294      0x120 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+                0xc3e02294                movi_uboot_copy
+                0xc3e022bc                emmc_uboot_copy
+                0xc3e022e0                emmc441_uboot_copy
+                0xc3e0230c                movi_calc_checksum_bl1
+                0xc3e02334                movi_write_bl1
+                0xc3e02384                movi_write_env
+                0xc3e0239c                movi_read_env
+ .text          0xc3e023b4      0x2c4 lib_arm/libarm.a(board.o)
+                0xc3e023b4                coloured_LED_init
+                0xc3e023b4                __coloured_LED_init
+                0xc3e023b8                red_LED_on
+                0xc3e023b8                __red_LED_on
+                0xc3e023bc                __red_LED_off
+                0xc3e023bc                red_LED_off
+                0xc3e023c0                green_LED_on
+                0xc3e023c0                __green_LED_on
+                0xc3e023c4                __green_LED_off
+                0xc3e023c4                green_LED_off
+                0xc3e023c8                __yellow_LED_on
+                0xc3e023c8                yellow_LED_on
+                0xc3e023cc                __yellow_LED_off
+                0xc3e023cc                yellow_LED_off
+                0xc3e023d0                blue_LED_on
+                0xc3e023d0                __blue_LED_on
+                0xc3e023d4                blue_LED_off
+                0xc3e023d4                __blue_LED_off
+                0xc3e02460                hang
+                0xc3e02544                start_armboot
+ .text          0xc3e02678     0x18c0 drivers/mmc/libmmc.a(mmc.o)
+                0xc3e02678                mmc_send_cmd
+                0xc3e02688                mmc_set_blocklen
+                0xc3e026c0                mmc_send_ext_csd
+                0xc3e02710                mmc_set_relative_addr
+                0xc3e02748                mmc_switch
+                0xc3e0278c                mmc_change_freq
+                0xc3e02840                sd_switch
+                0xc3e028ac                mmc_set_ios
+                0xc3e028bc                mmc_set_clock
+                0xc3e028dc                mmc_set_bus_width
+                0xc3e028e4                mmc_send_if_cond
+                0xc3e0295c                mmc_register
+                0xc3e029c4                board_mmc_init
+                0xc3e029cc                emmc_boot_close
+                0xc3e02a1c                emmc_boot_open
+                0xc3e02ab4                emmc_boot_partition_size_change
+                0xc3e02bcc                emmc_boot_erase
+                0xc3e02cf8                mmc_send_app_op_cond
+                0xc3e02dec                mmc_go_idle
+                0xc3e02e40                mmc_send_op_cond
+                0xc3e02ee8                mmc_erase
+                0xc3e03278                print_mmc_devices
+                0xc3e032ec                find_mmc_device
+                0xc3e03338                mmc_get_dev
+                0xc3e033fc                movi_write
+                0xc3e0351c                movi_read
+                0xc3e03534                sd_change_freq
+                0xc3e03730                mmc_startup
+                0xc3e03db8                mmc_init
+                0xc3e03e1c                mmc_initialize
+ .text          0xc3e03f38       0xb4 common/libcommon.a(cmd_bdinfo.o)
+                0xc3e03f38                do_bdinfo
+ .text          0xc3e03fec       0x90 common/libcommon.a(cmd_boot.o)
+                0xc3e03fec                do_go_exec
+                0xc3e04004                do_go
+ .text          0xc3e0407c      0xda0 common/libcommon.a(cmd_bootm.o)
+                0xc3e0407c                arch_preboot_os
+                0xc3e0407c                __arch_preboot_os
+                0xc3e04164                do_iminfo
+                0xc3e041c4                do_bootd
+                0xc3e0456c                bootm_start
+                0xc3e0492c                do_bootm_subcommand
+                0xc3e04ad4                do_bootm
+ .text          0xc3e04e1c       0xe0 common/libcommon.a(cmd_console.o)
+                0xc3e04e1c                do_coninfo
+ .text          0xc3e04efc       0x84 common/libcommon.a(cmd_echo.o)
+                0xc3e04efc                do_echo
+ .text          0xc3e04f80      0x408 common/libcommon.a(cmd_elf.o)
+                0xc3e04f80                load_elf_image
+                0xc3e05018                valid_elf_image
+                0xc3e0506c                do_bootvx
+                0xc3e052ac                do_bootelf_exec
+                0xc3e052f0                do_bootelf
+ .text          0xc3e05388      0x594 common/libcommon.a(cmd_ext2.o)
+                0xc3e05388                ext_format
+                0xc3e05490                do_ext3_format
+                0xc3e054a0                do_ext2_format
+                0xc3e054b0                do_ext2load
+                0xc3e057e4                do_ext2ls
+ .text          0xc3e0591c     0x2204 common/libcommon.a(cmd_fastboot.o)
+                0xc3e0591c                LCD_turnon
+                0xc3e05920                LCD_setfgcolor
+                0xc3e05924                LCD_setleftcolor
+                0xc3e05928                LCD_setprogress
+                0xc3e05948                fastboot_flash_get_ptn
+                0xc3e0596c                fastboot_flash_get_ptn_count
+                0xc3e0597c                fastboot_flash_find_ptn
+                0xc3e059f0                fastboot_flash_dump_ptn
+                0xc3e05b38                fastboot_flash_add_ptn
+                0xc3e06114                sd_format_mmcs
+                0xc3e0663c                do_fastboot
+                0xc3e0777c                do_sdfuse
+ .text          0xc3e07b20      0x5fc common/libcommon.a(cmd_fat.o)
+                0xc3e07b20                do_fat_format
+                0xc3e07c0c                do_fat_fsinfo
+                0xc3e07d10                do_fat_ls
+                0xc3e07e18                do_fat_fsload
+ .text          0xc3e0811c       0x4c common/libcommon.a(cmd_help.o)
+                0xc3e0811c                do_help
+ .text          0xc3e08168      0x310 common/libcommon.a(cmd_itest.o)
+                0xc3e081d4                binary_test
+                0xc3e083dc                do_itest
+ .text          0xc3e08478      0xd8c common/libcommon.a(cmd_load.o)
+                0xc3e08478                ktrans
+                0xc3e08498                chk1
+                0xc3e08500                k_data_init
+                0xc3e08520                k_data_save
+                0xc3e08544                k_data_restore
+                0xc3e08568                k_data_char
+                0xc3e085dc                send_pad
+                0xc3e0860c                s1_sendpacket
+                0xc3e08638                handle_send_packet
+                0xc3e08834                send_nack
+                0xc3e088ac                send_ack
+                0xc3e08a44                do_load_serial_bin
+                0xc3e09124                do_load_serial
+ .text          0xc3e09204       0x68 common/libcommon.a(cmd_max8997.o)
+                0xc3e09204                do_max8997
+ .text          0xc3e0926c       0xb0 common/libcommon.a(cmd_mdmupgrade.o)
+                0xc3e0926c                do_mdmup
+ .text          0xc3e0931c      0x910 common/libcommon.a(cmd_mem.o)
+                0xc3e0931c                do_mem_crc
+                0xc3e093c8                do_mem_base
+                0xc3e0940c                do_mem_mtest
+                0xc3e095b4                do_mem_loop
+                0xc3e096ac                do_mem_cp
+                0xc3e0977c                do_mem_cmp
+                0xc3e0990c                do_mem_mw
+                0xc3e09b18                do_mem_nm
+                0xc3e09b38                do_mem_mm
+                0xc3e09b58                do_mem_md
+ .text          0xc3e09c2c       0x88 common/libcommon.a(cmd_misc.o)
+                0xc3e09c2c                do_sleep
+ .text          0xc3e09cb4      0xc10 common/libcommon.a(cmd_mmc.o)
+                0xc3e09cb4                do_mmcinfo
+                0xc3e09e04                do_mmcops_secure
+                0xc3e0a0cc                do_mmcops
+                0xc3e0a510                do_emmc
+ .text          0xc3e0a8c4      0xc4c common/libcommon.a(cmd_mmc_fdisk.o)
+                0xc3e0a8c4                calc_unit
+                0xc3e0a904                encode_chs
+                0xc3e0a924                get_SDInfo
+                0xc3e0aa0c                make_partitionInfo
+                0xc3e0ac08                put_mmc_mbr
+                0xc3e0ac6c                get_mmc_mbr
+                0xc3e0accc                get_mmc_block_count
+                0xc3e0ad10                decode_partitionInfo
+                0xc3e0ad50                get_mmc_part_info
+                0xc3e0adec                print_mmc_part_info
+                0xc3e0af80                encode_partitionInfo
+                0xc3e0b014                make_mmc_partition
+                0xc3e0b3e4                create_mmc_fdisk
+                0xc3e0b47c                do_fdisk
+ .text          0xc3e0b510      0x8cc common/libcommon.a(cmd_movi.o)
+                0xc3e0b510                do_movi
+                0xc3e0bb6c                init_raw_area_table
+ .text          0xc3e0bddc      0x7f8 common/libcommon.a(cmd_nvedit.o)
+                0xc3e0bddc                get_env_id
+                0xc3e0bdec                envmatch
+                0xc3e0be4c                getenv_r
+                0xc3e0bef0                do_saveenv
+                0xc3e0bf1c                getenv
+                0xc3e0bf88                _do_setenv
+                0xc3e0c384                do_setenv
+                0xc3e0c3b0                setenv
+                0xc3e0c3fc                do_editenv
+                0xc3e0c548                do_printenv
+ .text          0xc3e0c5d4      0x1f4 common/libcommon.a(cmd_source.o)
+                0xc3e0c5d4                source
+                0xc3e0c780                do_source
+ .text          0xc3e0c7c8      0x108 common/libcommon.a(cmd_usbd.o)
+                0xc3e0c7c8                do_usbd_dnw
+ .text          0xc3e0c8d0       0x20 common/libcommon.a(cmd_version.o)
+                0xc3e0c8d0                do_version
+ .text          0xc3e0c8f0      0x2dc common/libcommon.a(cmd_ximg.o)
+                0xc3e0c8f0                do_imgextract
+ .text          0xc3e0cbcc      0x2e8 common/libcommon.a(command.o)
+                0xc3e0cbcc                cmd_get_data_size
+                0xc3e0cc1c                cmd_usage
+                0xc3e0cc7c                find_cmd_tbl
+                0xc3e0cd10                find_cmd
+                0xc3e0cd38                _do_help
+ .text          0xc3e0ceb4      0x548 common/libcommon.a(console.o)
+                0xc3e0cf54                fgetc
+                0xc3e0cf7c                ftstc
+                0xc3e0cfa4                fputc
+                0xc3e0cfd0                fputs
+                0xc3e0cffc                disable_ctrlc
+                0xc3e0d014                had_ctrlc
+                0xc3e0d024                clear_ctrlc
+                0xc3e0d038                dbg
+                0xc3e0d044                console_init_f
+                0xc3e0d054                search_device
+                0xc3e0d07c                console_assign
+                0xc3e0d0bc                fprintf
+                0xc3e0d104                puts
+                0xc3e0d120                vprintf
+                0xc3e0d14c                printf
+                0xc3e0d18c                stdio_print_current_devices
+                0xc3e0d244                console_init_r
+                0xc3e0d324                serial_printf
+                0xc3e0d364                putc
+                0xc3e0d380                tstc
+                0xc3e0d398                getc
+                0xc3e0d3b0                ctrlc
+ .text          0xc3e0d3fc      0x1a0 common/libcommon.a(decompress_ext4.o)
+                0xc3e0d3fc                check_compress_ext4
+                0xc3e0d4c0                write_compressed_ext4
+ .text          0xc3e0d59c     0x10f4 common/libcommon.a(dlmalloc.o)
+                0xc3e0d59c                sbrk
+                0xc3e0d5d4                malloc_trim
+                0xc3e0d6e4                free
+                0xc3e0d904                cfree
+                0xc3e0d908                malloc
+                0xc3e0df30                memalign
+                0xc3e0e040                pvalloc
+                0xc3e0e058                valloc
+                0xc3e0e064                malloc_usable_size
+                0xc3e0e0a8                mallopt
+                0xc3e0e120                calloc
+                0xc3e0e200                mem_malloc_init
+                0xc3e0e228                realloc
+ .text          0xc3e0e690      0x1d0 common/libcommon.a(env_auto.o)
+                0xc3e0e690                env_get_char_spec
+                0xc3e0e69c                env_init
+                0xc3e0e6b8                saveenv_nand
+                0xc3e0e6c0                saveenv_nand_adv
+                0xc3e0e6c8                env_relocate_spec_onenand
+                0xc3e0e754                env_relocate_spec_nand
+                0xc3e0e758                env_relocate_spec_movinand
+                0xc3e0e790                env_relocate_spec
+                0xc3e0e7c8                saveenv_onenand
+                0xc3e0e7e0                saveenv_movinand
+                0xc3e0e818                saveenv
+ .text          0xc3e0e860      0x154 common/libcommon.a(env_common.o)
+                0xc3e0e860                env_get_char_memory
+                0xc3e0e884                env_get_addr
+                0xc3e0e8a8                env_get_char
+                0xc3e0e8f0                env_crc_update
+                0xc3e0e918                set_default_env
+                0xc3e0e95c                env_relocate
+ .text          0xc3e0e9b4      0x1e4 common/libcommon.a(exports.o)
+                0xc3e0e9b8                get_version
+                0xc3e0e9c0                jumptable_init
+ .text          0xc3e0eb98      0x908 common/libcommon.a(image.o)
+                0xc3e0eb98                image_multi_count
+                0xc3e0ebbc                get_table_entry_name
+                0xc3e0ebe8                genimg_get_os_name
+                0xc3e0ec20                genimg_get_arch_name
+                0xc3e0ec58                genimg_get_type_name
+                0xc3e0ec90                genimg_get_comp_name
+                0xc3e0ecc8                genimg_get_image
+                0xc3e0eccc                genimg_has_config
+                0xc3e0ecd4                get_table_entry_id
+                0xc3e0ed20                genimg_get_comp_id
+                0xc3e0ed38                genimg_get_type_id
+                0xc3e0ed50                genimg_get_arch_id
+                0xc3e0ed68                genimg_get_os_id
+                0xc3e0ed80                genimg_get_format
+                0xc3e0edd4                image_multi_getimg
+                0xc3e0ee7c                genimg_print_size
+                0xc3e0eea8                image_print_contents
+                0xc3e0f0e8                memmove_wd
+                0xc3e0f0ec                getenv_bootm_low
+                0xc3e0f120                getenv_yesno
+                0xc3e0f144                getenv_bootm_size
+                0xc3e0f178                image_check_dcrc
+                0xc3e0f1c4                image_check_hcrc
+                0xc3e0f22c                boot_get_ramdisk
+ .text          0xc3e0f4a0     0x1080 common/libcommon.a(main.o)
+                0xc3e0f4a0                __show_boot_progress
+                0xc3e0f4a0                show_boot_progress
+                0xc3e0f4a4                parse_line
+                0xc3e0f530                run_command
+                0xc3e0f8fc                do_run
+                0xc3e0fb40                readline_into_buffer
+                0xc3e103a4                readline
+                0xc3e103c0                main_loop
+ .text          0xc3e10520      0x2fc common/libcommon.a(s_record.o)
+                0xc3e105b0                srec_decode
+ .text          0xc3e1081c      0x16c common/libcommon.a(stdio.o)
+                0xc3e1081c                stdio_get_list
+                0xc3e10828                stdio_clone
+                0xc3e10870                stdio_register
+                0xc3e108b0                stdio_init
+                0xc3e1093c                stdio_get_by_name
+ .text          0xc3e10988      0x980 common/libcommon.a(xyzModem.o)
+                0xc3e10988                parse_num
+                0xc3e10ac4                xyzModem_error
+                0xc3e10ae4                xyzModem_stream_close
+                0xc3e10b34                CYGACC_COMM_IF_PUTC
+                0xc3e10b3c                CYGACC_COMM_IF_GETC_TIMEOUT
+                0xc3e10b90                xyzModem_stream_terminate
+                0xc3e10f38                xyzModem_stream_read
+                0xc3e111b4                xyzModem_stream_open
+ .text          0xc3e11308      0x41c board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                0xc3e11308                board_init
+                0xc3e1132c                virt_to_phy_smdkc210
+                0xc3e1133c                checkboard
+                0xc3e11368                dram_init
+                0xc3e11578                chk_bootdev
+                0xc3e1161c                check_bootmode
+                0xc3e116c0                board_late_init
+ .text          0xc3e11724       0x44 lib_generic/libgeneric.a(crc16.o)
+                0xc3e11724                cyg_crc16
+ .text          0xc3e11768      0x104 lib_generic/libgeneric.a(crc32.o)
+                0xc3e11768                crc32_no_comp
+                0xc3e11854                crc32
+                0xc3e11868                crc32_wd
+ .text          0xc3e1186c      0x250 lib_generic/libgeneric.a(display_options.o)
+                0xc3e1186c                print_size
+                0xc3e11930                display_options
+                0xc3e11950                print_buffer
+ .text          0xc3e11abc      0x1bc lib_generic/libgeneric.a(gunzip.o)
+                0xc3e11abc                zunzip
+                0xc3e11bac                gunzip
+                0xc3e11c60                zfree
+                0xc3e11c68                zalloc
+ .text          0xc3e11c78       0x80 lib_generic/libgeneric.a(net_utils.o)
+                0xc3e11c78                string_to_ip
+ .text          0xc3e11cf8      0xb5c lib_generic/libgeneric.a(vsprintf.o)
+                0xc3e11cf8                simple_strtoul
+                0xc3e11da8                simple_strtol
+                0xc3e11dd0                ustrtoul
+                0xc3e11e3c                simple_strtoull
+                0xc3e11f1c                panic
+                0xc3e12430                vsprintf
+                0xc3e1282c                sprintf
+ .text          0xc3e12854     0x2764 lib_generic/libgeneric.a(zlib.o)
+                0xc3e12854                inflate_fast
+                0xc3e12db0                inflate_table
+                0xc3e13358                inflateReset
+                0xc3e133f4                inflateInit2_
+                0xc3e134f0                inflateInit_
+                0xc3e13500                inflateEnd
+                0xc3e13584                adler32
+                0xc3e13884                zcfree
+                0xc3e1388c                zcalloc
+                0xc3e13894                inflate
+ .text          0xc3e14fb8        0x0 lib_generic/libgeneric.a(ctype.o)
+ .text          0xc3e14fb8       0xf4 lib_generic/libgeneric.a(div64.o)
+                0xc3e14fb8                __div64_32
+ .text          0xc3e150ac      0x360 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+                0xc3e150ac                InitBaseHwForNfc
+                0xc3e15134                _console_write
+                0xc3e15188                _console_setup
+                0xc3e151e4                cpu_init
+                0xc3e151ec                icache_enable
+                0xc3e15228                icache_disable
+                0xc3e15264                icache_status
+                0xc3e15270                dcache_enable
+                0xc3e152ac                dcache_disable
+                0xc3e152e8                dcache_status
+                0xc3e152f4                branch_enable
+                0xc3e15330                branch_disable
+                0xc3e1536c                branch_status
+                0xc3e15378                cpu_mmc_init
+                0xc3e15390                reset_cpu
+                0xc3e153c4                do_reset
+                0xc3e153dc                cleanup_before_linux
+ .text          0xc3e1540c       0xa8 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+                0xc3e1540c                serial_setbrg
+                0xc3e15410                serial_init
+                0xc3e15418                serial_getc
+                0xc3e15438                serial_putc
+                0xc3e15460                serial_tstc
+                0xc3e15474                serial_puts
+ .text          0xc3e154b4     0x29d8 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                0xc3e154b4                s3c_usb_phy_off
+                0xc3e154e0                s3c_usb_core_soft_reset
+                0xc3e15500                s3c_usb_init_core
+                0xc3e1551c                s3c_usb_check_current_mode
+                0xc3e15534                s3c_usb_set_soft_disconnect
+                0xc3e1554c                s3c_usb_clear_soft_disconnect
+                0xc3e15564                s3c_usb_init_device
+                0xc3e15590                s3c_usbc_activate
+                0xc3e15598                s3c_usb_stop
+                0xc3e155e4                s3c_usb_set_inep_xfersize
+                0xc3e15618                s3c_usb_set_outep_xfersize
+                0xc3e1564c                s3c_usb_write_ep0_fifo
+                0xc3e1569c                s3c_usb_write_in_fifo
+                0xc3e156ec                s3c_usb_read_out_fifo
+                0xc3e15738                s3c_usb_get_desc
+                0xc3e15848                s3c_usb_clear_feature
+                0xc3e158b8                s3c_usb_set_feature
+                0xc3e15a44                s3c_usb_get_status
+                0xc3e15ae0                s3c_usb_ep0_int_hndlr
+                0xc3e15c54                s3c_usb_set_otherspeed_conf_desc
+                0xc3e15dac                s3c_usb_transfer_ep0
+                0xc3e16ff0                s3c_usb_int_bulkin
+                0xc3e1711c                s3c_usb_upload_start
+                0xc3e17278                s3c_usb_download_start
+                0xc3e1739c                s3c_usb_dma_in_done
+                0xc3e17438                s3c_usb_set_all_outep_nak
+                0xc3e17460                s3c_usb_clear_all_outep_nak
+                0xc3e17488                s3c_usb_set_max_pktsize
+                0xc3e174c4                s3c_usb_set_endpoint
+                0xc3e17508                s3c_usb_set_descriptors
+                0xc3e17658                s3c_usb_check_speed
+                0xc3e17670                s3c_usb_clear_dnfile_info
+                0xc3e1768c                s3c_usb_clear_upfile_info
+                0xc3e176a8                s3c_usb_check_setconf
+                0xc3e176c0                s3c_usb_set_opmode
+                0xc3e17724                s3c_usb_reset
+                0xc3e177bc                s3c_usb_set_init
+                0xc3e178d4                s3c_usb_verify_checksum
+                0xc3e17974                s3c_usb_download_continue
+                0xc3e17a14                s3c_usb_int_bulkout
+                0xc3e17a3c                s3c_usb_pkt_receive
+                0xc3e17aa8                s3c_usb_print_pkt
+                0xc3e17af4                s3c_usb_dma_out_done
+                0xc3e17b98                s3c_usb_transfer
+                0xc3e17c8c                s3c_udc_int_hndlr
+                0xc3e17d2c                s3c_usb_wait_cable_insert
+                0xc3e17d7c                s3c_usb_init_phy
+                0xc3e17dbc                s3c_usbctl_init
+ .text          0xc3e17e8c      0x18c cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+                0xc3e17e8c                get_device_type
+                0xc3e17e9c                arch_cpu_init
+                0xc3e17ff8                print_cpuinfo
+ .text          0xc3e18018     0x2d2c cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                0xc3e18018                fboot_usb_phy_off
+                0xc3e18044                fboot_usb_core_soft_reset
+                0xc3e18064                fboot_usb_init_core
+                0xc3e18080                fboot_usb_check_current_mode
+                0xc3e18098                fboot_usb_set_soft_disconnect
+                0xc3e180b0                fboot_usb_clear_soft_disconnect
+                0xc3e180c8                fboot_usb_init_device
+                0xc3e180f4                fboot_usbc_activate
+                0xc3e180fc                fboot_usb_stop
+                0xc3e18148                fboot_usb_set_inep_xfersize
+                0xc3e1817c                fboot_usb_set_outep_xfersize
+                0xc3e181b0                fboot_usb_write_ep0_fifo
+                0xc3e18200                fboot_usb_write_in_fifo
+                0xc3e18250                fboot_usb_read_out_fifo
+                0xc3e1829c                fboot_usb_get_desc
+                0xc3e183bc                fboot_usb_clear_feature
+                0xc3e1842c                fboot_usb_set_feature
+                0xc3e185b8                fboot_usb_get_status
+                0xc3e18654                fboot_usb_ep0_int_hndlr
+                0xc3e187c8                fboot_usb_set_otherspeed_conf_desc
+                0xc3e18920                fboot_usb_transfer_ep0
+                0xc3e19c2c                fboot_usb_upload_start
+                0xc3e19d88                fboot_usb_download_start
+                0xc3e19eac                fboot_usb_dma_in_done
+                0xc3e19f48                fboot_usb_set_all_outep_nak
+                0xc3e19f70                fboot_usb_clear_all_outep_nak
+                0xc3e19f98                fboot_usb_set_max_pktsize
+                0xc3e19fd4                fboot_usb_set_endpoint
+                0xc3e1a018                fboot_usb_set_descriptors
+                0xc3e1a16c                fboot_usb_check_speed
+                0xc3e1a184                fboot_usb_clear_dnfile_info
+                0xc3e1a1a0                fboot_usb_clear_upfile_info
+                0xc3e1a1bc                fboot_usb_check_setconf
+                0xc3e1a1d4                fboot_usb_set_opmode
+                0xc3e1a238                fboot_usb_reset
+                0xc3e1a2d0                fastboot_shutdown
+                0xc3e1a318                fastboot_fifo_size
+                0xc3e1a334                fastboot_getvar
+                0xc3e1a33c                fboot_usb_int_bulkin
+                0xc3e1a404                fastboot_preboot
+                0xc3e1a498                fboot_usb_set_init
+                0xc3e1a5b0                fboot_usb_verify_checksum
+                0xc3e1a644                fboot_usb_download_continue
+                0xc3e1a6e4                fboot_usb_print_pkt
+                0xc3e1a724                fboot_usb_dma_out_done
+                0xc3e1a7c8                fboot_usb_transfer
+                0xc3e1a8c4                fboot_usb_wait_cable_insert
+                0xc3e1a904                fboot_usb_init_phy
+                0xc3e1a944                fboot_usbctl_init
+                0xc3e1aa14                fastboot_init
+                0xc3e1aaec                fboot_usb_int_bulkout
+                0xc3e1ab7c                fboot_usb_pkt_receive
+                0xc3e1abe8                fboot_usb_int_hndlr
+                0xc3e1aca4                fastboot_poll
+                0xc3e1acf8                fastboot_tx_status
+ .text          0xc3e1ad44      0x474 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+                0xc3e1ad44                PMIC_GetVoltage_Buck
+                0xc3e1ad94                PMIC_SetVoltage_Buck
+                0xc3e1addc                I2C_S5M8767_VolSetting
+                0xc3e1ae48                pmic8767_init
+                0xc3e1aea0                PMIC_InitIp
+                0xc3e1b128                GPIO_Reset_B
+                0xc3e1b170                GPIO_Reset_A
+ .text          0xc3e1b1b8     0x2be4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+                0xc3e1b1b8                GPIO_Init
+                0xc3e1b1cc                GPIO_SetFunctionEach
+                0xc3e1b1fc                GPIO_SetFunctionAll
+                0xc3e1b214                GPIO_SetDataEach
+                0xc3e1b244                GPIO_SetDataAll
+                0xc3e1b260                GPIO_GetDataAll
+                0xc3e1b27c                GPIO_SetPullUpDownEach
+                0xc3e1b2b0                GPIO_SetPullUpDownAll
+                0xc3e1b2cc                ETC_SetPullUpDownEach
+                0xc3e1b2fc                ETC_SetPullUpDownAll
+                0xc3e1b314                GPIO_SetDSEach
+                0xc3e1b348                GPIO_SetDSAll
+                0xc3e1b374                GPIO_SetConRegPDNAll
+                0xc3e1b390                GPIO_SetPullUDPDNAll
+                0xc3e1b3ac                GPIO_EINT1ClrPend
+                0xc3e1b3d0                GPIO_EINT1UnMask
+                0xc3e1b3f8                GPIO_EINT1Mask
+                0xc3e1b428                GPIO_EINT2ClrPend
+                0xc3e1b44c                GPIO_EINT2UnMask
+                0xc3e1b474                GPIO_EINT2Mask
+                0xc3e1b4a4                GPIO_EINT3ClrPend
+                0xc3e1b4c8                GPIO_EINT3UnMask
+                0xc3e1b4f0                GPIO_EINT3Mask
+                0xc3e1b520                GPIO_EINT4ClrPend
+                0xc3e1b544                GPIO_EINT4UnMask
+                0xc3e1b56c                GPIO_EINT4Mask
+                0xc3e1b59c                GPIO_EINT5ClrPend
+                0xc3e1b5c0                GPIO_EINT5UnMask
+                0xc3e1b5e8                GPIO_EINT5Mask
+                0xc3e1b618                GPIO_EINT6ClrPend
+                0xc3e1b63c                GPIO_EINT6UnMask
+                0xc3e1b664                GPIO_EINT6Mask
+                0xc3e1b694                GPIO_EINT7ClrPend
+                0xc3e1b6b8                GPIO_EINT7UnMask
+                0xc3e1b6e0                GPIO_EINT7Mask
+                0xc3e1b710                GPIO_EINT8ClrPend
+                0xc3e1b734                GPIO_EINT8UnMask
+                0xc3e1b75c                GPIO_EINT8Mask
+                0xc3e1b78c                GPIO_EINT9ClrPend
+                0xc3e1b7b0                GPIO_EINT9UnMask
+                0xc3e1b7d8                GPIO_EINT9Mask
+                0xc3e1b808                GPIO_EINT10ClrPend
+                0xc3e1b82c                GPIO_EINT10UnMask
+                0xc3e1b854                GPIO_EINT10Mask
+                0xc3e1b884                GPIO_EINT11ClrPend
+                0xc3e1b8a8                GPIO_EINT11UnMask
+                0xc3e1b8d0                GPIO_EINT11Mask
+                0xc3e1b900                GPIO_EINT12ClrPend
+                0xc3e1b924                GPIO_EINT12UnMask
+                0xc3e1b94c                GPIO_EINT12Mask
+                0xc3e1b97c                GPIO_EINT13ClrPend
+                0xc3e1b9a0                GPIO_EINT13UnMask
+                0xc3e1b9c8                GPIO_EINT13Mask
+                0xc3e1b9f8                GPIO_EINT14ClrPend
+                0xc3e1ba1c                GPIO_EINT14UnMask
+                0xc3e1ba44                GPIO_EINT14Mask
+                0xc3e1ba74                GPIO_EINT15ClrPend
+                0xc3e1ba98                GPIO_EINT15UnMask
+                0xc3e1bac0                GPIO_EINT15Mask
+                0xc3e1baf0                GPIO_EINT16ClrPend
+                0xc3e1bb14                GPIO_EINT16UnMask
+                0xc3e1bb3c                GPIO_EINT16Mask
+                0xc3e1bb6c                GPIO_EINT21ClrPend
+                0xc3e1bb88                GPIO_EINT21UnMask
+                0xc3e1bba8                GPIO_EINT21Mask
+                0xc3e1bbd0                GPIO_EINT22ClrPend
+                0xc3e1bbec                GPIO_EINT22UnMask
+                0xc3e1bc0c                GPIO_EINT22Mask
+                0xc3e1bc34                GPIO_EINT23ClrPend
+                0xc3e1bc50                GPIO_EINT23UnMask
+                0xc3e1bc70                GPIO_EINT23Mask
+                0xc3e1bc98                GPIO_EINT24ClrPend
+                0xc3e1bcb4                GPIO_EINT24UnMask
+                0xc3e1bcd4                GPIO_EINT24Mask
+                0xc3e1bcfc                GPIO_EINT25ClrPend
+                0xc3e1bd18                GPIO_EINT25UnMask
+                0xc3e1bd38                GPIO_EINT25Mask
+                0xc3e1bd60                GPIO_EINT26ClrPend
+                0xc3e1bd7c                GPIO_EINT26UnMask
+                0xc3e1bd9c                GPIO_EINT26Mask
+                0xc3e1bdc4                GPIO_EINT27ClrPend
+                0xc3e1bde0                GPIO_EINT27UnMask
+                0xc3e1be00                GPIO_EINT27Mask
+                0xc3e1be28                GPIO_EINT28ClrPend
+                0xc3e1be44                GPIO_EINT28UnMask
+                0xc3e1be64                GPIO_EINT28Mask
+                0xc3e1be8c                GPIO_EINT29ClrPend
+                0xc3e1bea8                GPIO_EINT29UnMask
+                0xc3e1bec8                GPIO_EINT29Mask
+                0xc3e1bef0                GPIO_EINT40ClrPend
+                0xc3e1bf0c                GPIO_EINT40UnMask
+                0xc3e1bf2c                GPIO_EINT40Mask
+                0xc3e1bf54                GPIO_EINT41ClrPend
+                0xc3e1bf70                GPIO_EINT41UnMask
+                0xc3e1bf90                GPIO_EINT41Mask
+                0xc3e1bfb8                GPIO_EINT42ClrPend
+                0xc3e1bfd4                GPIO_EINT42UnMask
+                0xc3e1bff4                GPIO_EINT42Mask
+                0xc3e1c01c                GPIO_EINT43ClrPend
+                0xc3e1c038                GPIO_EINT43UnMask
+                0xc3e1c058                GPIO_EINT43Mask
+                0xc3e1c080                EINT_GRPPRI_XA
+                0xc3e1c0a8                EINT_GRPPRI_XB
+                0xc3e1c0c8                EINT_PRIORITY_XA
+                0xc3e1c0fc                EINT_PRIORITY_XB
+                0xc3e1c128                Get_EINTSVC_XA
+                0xc3e1c144                Get_EINTSVC_XB
+                0xc3e1c158                Get_EINTSVCPEND_XA
+                0xc3e1c174                Get_EINTSVCPEND_XB
+                0xc3e1c188                EINT_GRPFIXPRI_XA
+                0xc3e1c1b0                EINT_GRPFIXPRI_XB
+                0xc3e1c1d0                EINT_FIXPRI_XB
+                0xc3e1c214                EINT_FIXPRI_XA
+                0xc3e1c288                GPIO_SetEint1
+                0xc3e1c384                GPIO_SetEint2
+                0xc3e1c48c                GPIO_SetEint3
+                0xc3e1c594                GPIO_SetEint4
+                0xc3e1c67c                GPIO_SetEint5
+                0xc3e1c764                GPIO_SetEint6
+                0xc3e1c820                GPIO_SetEint7
+                0xc3e1c8dc                GPIO_SetEint8
+                0xc3e1c9c4                GPIO_SetEint9
+                0xc3e1cacc                GPIO_SetEint10
+                0xc3e1cbd4                GPIO_SetEint11
+                0xc3e1ccdc                GPIO_SetEint12
+                0xc3e1cde4                GPIO_SetEint13
+                0xc3e1ceec                GPIO_SetEint14
+                0xc3e1cff4                GPIO_SetEint15
+                0xc3e1d0fc                GPIO_SetEint16
+                0xc3e1d204                GPIO_SetEint21
+                0xc3e1d2f0                GPIO_SetEint22
+                0xc3e1d3bc                GPIO_SetEint23
+                0xc3e1d4a8                GPIO_SetEint24
+                0xc3e1d594                GPIO_SetEint25
+                0xc3e1d680                GPIO_SetEint26
+                0xc3e1d76c                GPIO_SetEint27
+                0xc3e1d858                GPIO_SetEint28
+                0xc3e1d900                GPIO_SetEint29
+                0xc3e1d9ec                GPIO_SetEint40
+                0xc3e1dad8                GPIO_SetEint41
+                0xc3e1dbc4                GPIO_SetEint42
+                0xc3e1dcb0                GPIO_SetEint43
+ .text          0xc3e1dd9c     0x1734 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+                0xc3e1dd9c                I2C_GetLastError
+                0xc3e1ddb4                I2C_WaitForBusReady
+                0xc3e1ddf4                I2C_WaitForMatchAddress
+                0xc3e1de40                I2C_WaitForXferAck
+                0xc3e1de90                I2C_WaitForXferNoAck
+                0xc3e1ded0                I2C_SetClock
+                0xc3e1df3c                I2C_SetAckGeneration
+                0xc3e1df78                I2C_SetSlaveAddress
+                0xc3e1dfac                I2C_SetFilter
+                0xc3e1dfe8                I2C_SetOutputDelay
+                0xc3e1e020                I2C_SetMode
+                0xc3e1e130                I2C_EnableInt
+                0xc3e1e154                I2C_DisableInt
+                0xc3e1e178                I2C_GetIntStatus
+                0xc3e1e198                I2C_ClearIntStatus
+                0xc3e1e1bc                I2C_GenerateSignal
+                0xc3e1e1f8                I2C_GetBusStatus
+                0xc3e1e218                I2C_IsBusReady
+                0xc3e1e23c                I2C_IsBusBusy
+                0xc3e1e25c                I2C_IsMatchAddress
+                0xc3e1e27c                I2C_IsXferAck
+                0xc3e1e2a0                I2C_WriteAddress
+                0xc3e1e2c0                I2C_WriteData
+                0xc3e1e2dc                I2C_ReadData
+                0xc3e1e2f8                I2C_SetGPIO
+                0xc3e1e730                I2C_InitSlave
+                0xc3e1e800                I2C_InitMaster
+                0xc3e1e8a8                I2C_CalculatePrescaler
+                0xc3e1e970                I2C_PrintErrorCase
+                0xc3e1ed98                I2C_RecvEx
+                0xc3e1ed9c                I2C_Recv
+                0xc3e1f264                I2C_SendEx
+                0xc3e1f268                I2C_Send
+                0xc3e1f430                I2C_InitIp
+ .text          0xc3e1f4d0     0x2430 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+                0xc3e1f4d0                SYSC_SetCpuDiv
+                0xc3e1f54c                SYSC_SetCoreDiv
+                0xc3e1f5e4                SYSC_SetTopBusDiv
+                0xc3e1f678                SYSC_SetDivDefaultVal
+                0xc3e1f6fc                SYSC_GetFoutPll
+                0xc3e1f8c0                SYSC_CalcPllFout
+                0xc3e1fa2c                SYSC_SetLocktimeVal
+                0xc3e1faac                SYSC_CheckPllLock
+                0xc3e1fb00                SYSC_EnablePll
+                0xc3e1fb64                SYSC_DisablePll
+                0xc3e1fbbc                SYSC_SetDitherParam
+                0xc3e1fd30                SYSC_SetPllByPms
+                0xc3e1ffb8                SYSC_SetPllByFout
+                0xc3e20450                SYSC_GetVcoPll
+                0xc3e205a8                SYSC_SetMuxSrc
+                0xc3e20660                SYSC_ChangePllnDiv
+                0xc3e20824                SYSC_InitSysClk
+                0xc3e20a14                SYSC_GetMuxSrc
+                0xc3e20a3c                SYSC_SetClkDiv
+                0xc3e20a90                SYSC_GetClkDiv
+                0xc3e20abc                SYSC_SetClkGateIp
+                0xc3e20af0                SYSC_GetClkGateIp
+                0xc3e20b1c                SYSC_SetClkGateBlock
+                0xc3e20b50                SYSC_GetClkGateBlock
+                0xc3e214a4                SYSC_GetClkFreq
+                0xc3e216a4                SYSC_SetClkOut
+ .text          0xc3e21900       0x98 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+                0xc3e21954                get_ARM_CLK
+                0xc3e21988                get_MPLL_CLK
+                0xc3e21990                get_APLL_CLK
+ .text          0xc3e21998      0x470 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+                0xc3e21c60                pmic_write
+                0xc3e21cb4                max8997_init
+                0xc3e21d7c                lowlevel_init_max8997
+                0xc3e21e04                pmic_read
+ .text          0xc3e21e08      0x278 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+                0xc3e21e08                setup_sdhci0_cfg_card
+                0xc3e21e0c                setup_hsmmc_cfg_gpio
+                0xc3e21ea4                setup_hsmmc_clock
+                0xc3e21fa4                set_hsmmc_pre_ratio
+                0xc3e22030                clear_hsmmc_clock_div
+ .text          0xc3e22080      0x174 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+                0xc3e22080                factory_reset
+                0xc3e22144                recovery_preboot
+ .text          0xc3e221f4      0x23c lib_arm/libarm.a(bootm.o)
+                0xc3e221f4                do_bootm_linux
+ .text          0xc3e22430        0x4 lib_arm/libarm.a(cache.o)
+                0xc3e22430                flush_cache
+ .text          0xc3e22434     0x1af8 fs/fat/libfat.a(fat.o)
+                0xc3e22434                disk_read
+                0xc3e227d0                file_fat_detectfs
+                0xc3e22d34                do_fat_read
+                0xc3e23764                file_fat_read
+                0xc3e2379c                file_fat_ls
+                0xc3e237ac                fat_register_device
+                0xc3e238bc                fat_format_device
+ .text          0xc3e23f2c     0x3914 fs/ext2/libext2fs.a(ext2fs.o)
+                0xc3e23f2c                get_random_val
+                0xc3e23f44                default_journal_size
+                0xc3e23f84                ext2fs_format
+                0xc3e26a74                ext2fs_free_node
+                0xc3e26a94                ext2fs_close
+                0xc3e26c14                ext2fs_mount
+                0xc3e26cbc                ext2fs_read_file
+                0xc3e2717c                ext2fs_read
+                0xc3e27428                ext2fs_find_file1
+                0xc3e276bc                ext2fs_find_file
+                0xc3e27738                ext2fs_open
+                0xc3e277cc                ext2fs_ls
+ .text          0xc3e27840      0x228 fs/ext2/libext2fs.a(dev.o)
+                0xc3e27840                ext2fs_devread
+                0xc3e27a1c                ext2fs_set_blk_dev
+ .text          0xc3e27a68      0x378 disk/libdisk.a(part.o)
+                0xc3e27a68                dev_print
+                0xc3e27c64                get_partition_info
+                0xc3e27c88                init_part
+                0xc3e27ca4                get_dev
+                0xc3e27d04                print_part
+ .text          0xc3e27de0      0x554 disk/libdisk.a(part_dos.o)
+                0xc3e27de0                test_part_dos
+                0xc3e280bc                get_partition_info_dos
+                0xc3e28308                print_part_dos
+ .text          0xc3e28334      0x528 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+                0xc3e28334                smdk_s3c_hsmmc_init
+ .text          0xc3e2885c      0xb8c drivers/mmc/libmmc.a(s5p_mshc.o)
+                0xc3e28930                mshci_fifo_deinit
+                0xc3e28c14                smdk_s5p_mshc_init
+                0xc3e29380                emmc_mode_change
+ .text          0xc3e293e8       0x1c /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+                0xc3e293e8                raise
+ .text          0xc3e29404      0x114 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+                0xc3e29404                __udivsi3
+                0xc3e29404                __aeabi_uidiv
+                0xc3e29500                __aeabi_uidivmod
+ .text          0xc3e29518      0x144 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+                0xc3e29518                __aeabi_idiv
+                0xc3e29518                __divsi3
+                0xc3e29644                __aeabi_idivmod
+ .text          0xc3e2965c       0x1c /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+                0xc3e2965c                __aeabi_llsr
+                0xc3e2965c                __lshrdi3
+ .text          0xc3e29678      0x41c /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+                0xc3e29678                __aeabi_drsub
+                0xc3e29680                __aeabi_dsub
+                0xc3e29680                __subdf3
+                0xc3e29684                __adddf3
+                0xc3e29684                __aeabi_dadd
+                0xc3e29994                __aeabi_ui2d
+                0xc3e29994                __floatunsidf
+                0xc3e299b8                __floatsidf
+                0xc3e299b8                __aeabi_i2d
+                0xc3e299e0                __extendsfdf2
+                0xc3e299e0                __aeabi_f2d
+                0xc3e29a20                __aeabi_ul2d
+                0xc3e29a20                __floatundidf
+                0xc3e29a34                __floatdidf
+                0xc3e29a34                __aeabi_l2d
+ .text          0xc3e29a94      0x49c /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+                0xc3e29a94                __aeabi_dmul
+                0xc3e29a94                __muldf3
+                0xc3e29d24                __aeabi_ddiv
+                0xc3e29d24                __divdf3
+ .text          0xc3e29f30       0xa0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+                0xc3e29f30                __aeabi_d2f
+                0xc3e29f30                __truncdfsf2
+ .text          0xc3e29fd0      0x2ac /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+                0xc3e29fd0                __aeabi_frsub
+                0xc3e29fd8                __subsf3
+                0xc3e29fd8                __aeabi_fsub
+                0xc3e29fdc                __aeabi_fadd
+                0xc3e29fdc                __addsf3
+                0xc3e2a198                __aeabi_ui2f
+                0xc3e2a198                __floatunsisf
+                0xc3e2a1a0                __aeabi_i2f
+                0xc3e2a1a0                __floatsisf
+                0xc3e2a1c0                __floatundisf
+                0xc3e2a1c0                __aeabi_ul2f
+                0xc3e2a1d0                __floatdisf
+                0xc3e2a1d0                __aeabi_l2f
+ .text          0xc3e2a27c      0x2f8 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+                0xc3e2a27c                __mulsf3
+                0xc3e2a27c                __aeabi_fmul
+                0xc3e2a414                __divsf3
+                0xc3e2a414                __aeabi_fdiv
+ .text          0xc3e2a574      0x114 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+                0xc3e2a574                __gtsf2
+                0xc3e2a574                __gesf2
+                0xc3e2a57c                __lesf2
+                0xc3e2a57c                __ltsf2
+                0xc3e2a584                __nesf2
+                0xc3e2a584                __eqsf2
+                0xc3e2a584                __cmpsf2
+                0xc3e2a5e8                __aeabi_cfrcmple
+                0xc3e2a5f8                __aeabi_cfcmple
+                0xc3e2a5f8                __aeabi_cfcmpeq
+                0xc3e2a610                __aeabi_fcmpeq
+                0xc3e2a628                __aeabi_fcmplt
+                0xc3e2a640                __aeabi_fcmple
+                0xc3e2a658                __aeabi_fcmpge
+                0xc3e2a670                __aeabi_fcmpgt
+ .text          0xc3e2a688       0x54 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+                0xc3e2a688                __aeabi_f2uiz
+                0xc3e2a688                __fixunssfsi
+ .text          0xc3e2a6dc       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+                0xc3e2a6dc                __div0
+
+.glue_7         0xc3e2a6f0        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0xc3e2a6f0        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0xc3e2a6f0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0xc3e2a6f0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+                0xc3e2a6f0                . = ALIGN (0x4)
+
+.rodata         0xc3e2a6f0     0xcb5e
+ *(SORT(.rodata*))
+ .rodata        0xc3e2a6f0       0x14 common/ace_sha1.o
+                0xc3e2a6f0                sha1_digest_emptymsg
+ .rodata        0xc3e2a704       0x80 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .rodata        0xc3e2a784       0x40 lib_arm/libarm.a(board.o)
+                0xc3e2a784                version_string
+ .rodata        0xc3e2a7c4       0x4c common/libcommon.a(cmd_bootm.o)
+ .rodata        0xc3e2a810       0x58 common/libcommon.a(command.o)
+ .rodata        0xc3e2a868       0x20 common/libcommon.a(xyzModem.o)
+ .rodata        0xc3e2a888      0x200 lib_generic/libgeneric.a(crc16.o)
+ .rodata        0xc3e2aa88      0x400 lib_generic/libgeneric.a(crc32.o)
+ .rodata        0xc3e2ae88       0x24 lib_generic/libgeneric.a(vsprintf.o)
+                0xc3e2ae98                hex_asc
+ .rodata        0xc3e2aeac      0x9d0 lib_generic/libgeneric.a(zlib.o)
+                0xc3e2b854                z_errmsg
+ .rodata        0xc3e2b87c       0xac cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                0xc3e2b87c                config_full
+                0xc3e2b888                config_full_total
+                0xc3e2b8a8                qualifier_desc
+                0xc3e2b8b4                config_high
+                0xc3e2b8c0                string_desc1
+                0xc3e2b8d8                string_desc2
+                0xc3e2b904                string_desc0
+                0xc3e2b908                config_high_total
+ .rodata        0xc3e2b928       0xb4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                0xc3e2b928                fboot_config_full
+                0xc3e2b934                fboot_config_full_total
+                0xc3e2b954                fboot_qualifier_desc
+                0xc3e2b960                fboot_config_high
+                0xc3e2b96c                fboot_string_desc1
+                0xc3e2b984                fboot_string_desc2
+                0xc3e2b99c                string_desc3
+                0xc3e2b9b8                fboot_string_desc0
+                0xc3e2b9bc                fboot_config_high_total
+ .rodata        0xc3e2b9dc       0x18 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+                0xc3e2b9dc                gVoltage_Type
+ .rodata        0xc3e2b9f4     0x4c08 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .rodata        0xc3e305fc       0x10 disk/libdisk.a(part.o)
+ .rodata        0xc3e3060c        0x2 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .rodata.str1.1
+                0xc3e3060e      0x264 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+                                0x27b (size before relaxing)
+ .rodata.str1.1
+                0xc3e30872       0x5f lib_arm/libarm.a(board.o)
+                                 0x61 (size before relaxing)
+ .rodata.str1.1
+                0xc3e308d1      0x396 drivers/mmc/libmmc.a(mmc.o)
+                                0x39e (size before relaxing)
+ .rodata.str1.1
+                0xc3e30c67       0x81 common/libcommon.a(cmd_bdinfo.o)
+                                 0x82 (size before relaxing)
+ .rodata.str1.1
+                0xc3e30ce8       0xef common/libcommon.a(cmd_boot.o)
+                                 0xf0 (size before relaxing)
+ .rodata.str1.1
+                0xc3e30dd7      0x7f4 common/libcommon.a(cmd_bootm.o)
+                                0x848 (size before relaxing)
+ .rodata.str1.1
+                0xc3e315cb       0x5c common/libcommon.a(cmd_console.o)
+                                 0x61 (size before relaxing)
+ .rodata.str1.1
+                0xc3e31627       0x50 common/libcommon.a(cmd_echo.o)
+                                 0x55 (size before relaxing)
+ .rodata.str1.1
+                0xc3e31677      0x24c common/libcommon.a(cmd_elf.o)
+                                0x25c (size before relaxing)
+ .rodata.str1.1
+                0xc3e318c3      0x4d6 common/libcommon.a(cmd_ext2.o)
+                                0x56e (size before relaxing)
+ .rodata.str1.1
+                0xc3e31d99      0xdef common/libcommon.a(cmd_fastboot.o)
+                                0xe8f (size before relaxing)
+ .rodata.str1.1
+                0xc3e32b88      0x543 common/libcommon.a(cmd_fat.o)
+                                0x656 (size before relaxing)
+ .rodata.str1.1
+                0xc3e330cb       0x9a common/libcommon.a(cmd_help.o)
+                                 0x9b (size before relaxing)
+ .rodata.str1.1
+                0xc3e33165       0xb3 common/libcommon.a(cmd_itest.o)
+                                 0xb5 (size before relaxing)
+ .rodata.str1.1
+                0xc3e33218      0x336 common/libcommon.a(cmd_load.o)
+                                0x353 (size before relaxing)
+ .rodata.str1.1
+                0xc3e3354e       0x5c common/libcommon.a(cmd_max8997.o)
+ .rodata.str1.1
+                0xc3e335aa       0x3f common/libcommon.a(cmd_mdmupgrade.o)
+ .rodata.str1.1
+                0xc3e335e9      0x480 common/libcommon.a(cmd_mem.o)
+                                0x491 (size before relaxing)
+ .rodata.str1.1
+                0xc3e33a69       0x5f common/libcommon.a(cmd_misc.o)
+ .rodata.str1.1
+                0xc3e33ac8      0x6fb common/libcommon.a(cmd_mmc.o)
+                                0x738 (size before relaxing)
+ .rodata.str1.1
+                0xc3e341c3      0x28d common/libcommon.a(cmd_mmc_fdisk.o)
+                                0x291 (size before relaxing)
+ .rodata.str1.1
+                0xc3e34450      0x375 common/libcommon.a(cmd_movi.o)
+                                0x3ed (size before relaxing)
+ .rodata.str1.1
+                0xc3e347c5      0x33c common/libcommon.a(cmd_nvedit.o)
+                                0x392 (size before relaxing)
+ .rodata.str1.1
+                0xc3e34b01      0x101 common/libcommon.a(cmd_source.o)
+                                0x108 (size before relaxing)
+ .rodata.str1.1
+                0xc3e34c02       0x93 common/libcommon.a(cmd_usbd.o)
+                                 0x9e (size before relaxing)
+ .rodata.str1.1
+                0xc3e34c95       0x16 common/libcommon.a(cmd_version.o)
+                                 0x24 (size before relaxing)
+ .rodata.str1.1
+                0xc3e34cab      0x187 common/libcommon.a(cmd_ximg.o)
+                                0x22f (size before relaxing)
+ .rodata.str1.1
+                0xc3e34e32       0x95 common/libcommon.a(command.o)
+ .rodata.str1.1
+                0xc3e34ec7       0x70 common/libcommon.a(console.o)
+                                 0x74 (size before relaxing)
+ .rodata.str1.1
+                0xc3e34f37      0x128 common/libcommon.a(decompress_ext4.o)
+                                0x12c (size before relaxing)
+ .rodata.str1.1
+                0xc3e3505f       0xb7 common/libcommon.a(env_auto.o)
+ .rodata.str1.1
+                0xc3e35116       0x33 common/libcommon.a(env_common.o)
+ .rodata.str1.1
+                0xc3e35149      0x44d common/libcommon.a(image.o)
+                                0x4f0 (size before relaxing)
+ .rodata.str1.1
+                0xc3e35596       0xc8 common/libcommon.a(main.o)
+                                 0xf0 (size before relaxing)
+ .rodata.str1.1
+                0xc3e3565e        0x7 common/libcommon.a(stdio.o)
+                                 0x1b (size before relaxing)
+ .rodata.str1.1
+                0xc3e35665       0xe3 common/libcommon.a(xyzModem.o)
+                                 0xe5 (size before relaxing)
+ .rodata.str1.1
+                0xc3e35748      0x15a board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                                0x193 (size before relaxing)
+ .rodata.str1.1
+                0xc3e358a2       0x11 lib_generic/libgeneric.a(display_options.o)
+                                 0x36 (size before relaxing)
+ .rodata.str1.1
+                0xc3e358b3       0x85 lib_generic/libgeneric.a(gunzip.o)
+ .rodata.str1.1
+                0xc3e35938        0xe lib_generic/libgeneric.a(vsprintf.o)
+ .rodata.str1.1
+                0xc3e35946      0x21c lib_generic/libgeneric.a(zlib.o)
+                                0x21d (size before relaxing)
+ .rodata.str1.1
+                0xc3e35b62        0xd cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .rodata.str1.1
+                0xc3e35b6f      0x145 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                                0x14a (size before relaxing)
+ .rodata.str1.1
+                0xc3e35cb4      0x183 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .rodata.str1.1
+                0xc3e35e37       0x6f cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                                0x181 (size before relaxing)
+ .rodata.str1.1
+                0xc3e35ea6       0x84 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .rodata.str1.1
+                0xc3e35f2a       0x37 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .rodata.str1.1
+                0xc3e35f61       0xe6 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .rodata.str1.1
+                0xc3e36047       0x17 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .rodata.str1.1
+                0xc3e3605e       0xf1 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+                                0x121 (size before relaxing)
+ .rodata.str1.1
+                0xc3e3614f       0x5a lib_arm/libarm.a(bootm.o)
+                                 0x63 (size before relaxing)
+ .rodata.str1.1
+                0xc3e361a9      0x3fd fs/fat/libfat.a(fat.o)
+                                0x402 (size before relaxing)
+ .rodata.str1.1
+                0xc3e365a6      0x4f6 fs/ext2/libext2fs.a(ext2fs.o)
+                                0x579 (size before relaxing)
+ .rodata.str1.1
+                0xc3e36a9c       0xdc fs/ext2/libext2fs.a(dev.o)
+ .rodata.str1.1
+                0xc3e36b78      0x1b4 disk/libdisk.a(part.o)
+                                0x1e0 (size before relaxing)
+ .rodata.str1.1
+                0xc3e36d2c       0xe5 disk/libdisk.a(part_dos.o)
+                                 0xf1 (size before relaxing)
+ .rodata.str1.1
+                0xc3e36e11       0xfd drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .rodata.str1.1
+                0xc3e36f0e      0x325 drivers/mmc/libmmc.a(s5p_mshc.o)
+                                0x347 (size before relaxing)
+ .rodata.str1.1
+                0xc3e37233       0x1b /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+
+.mmudata        0xc3e38000     0x4000
+ .mmudata       0xc3e38000     0x4000 board/samsung/smdkc210/lowlevel_init.o
+                0xc3e38000                mmu_table
+                0xc3e3c000                . = ALIGN (0x4)
+
+.data           0xc3e3c000      0xb74
+ *(.data)
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/start.o
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .data          0xc3e3c000        0x0 board/samsung/smdkc210/lowlevel_init.o
+ .data          0xc3e3c000        0x0 common/ace_sha1.o
+ .data          0xc3e3c000        0x0 lib_generic/libgeneric.a(string.o)
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .data          0xc3e3c000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .data          0xc3e3c000       0x34 lib_arm/libarm.a(board.o)
+                0xc3e3c000                init_sequence
+ .data          0xc3e3c034        0x4 drivers/mmc/libmmc.a(mmc.o)
+ .data          0xc3e3c038        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .data          0xc3e3c038        0x0 common/libcommon.a(cmd_boot.o)
+ .data          0xc3e3c038       0x94 common/libcommon.a(cmd_bootm.o)
+                0xc3e3c038                load_addr
+                0xc3e3c03c                cmd_bootm_sub
+ .data          0xc3e3c0cc        0x0 common/libcommon.a(cmd_console.o)
+ .data          0xc3e3c0cc        0x0 common/libcommon.a(cmd_echo.o)
+ .data          0xc3e3c0cc        0x0 common/libcommon.a(cmd_elf.o)
+ .data          0xc3e3c0cc        0x0 common/libcommon.a(cmd_ext2.o)
+ .data          0xc3e3c0cc       0x20 common/libcommon.a(cmd_fastboot.o)
+ .data          0xc3e3c0ec        0x0 common/libcommon.a(cmd_fat.o)
+ .data          0xc3e3c0ec        0x0 common/libcommon.a(cmd_help.o)
+ .data          0xc3e3c0ec       0x68 common/libcommon.a(cmd_itest.o)
+                0xc3e3c0ec                op_table
+ .data          0xc3e3c154        0x4 common/libcommon.a(cmd_load.o)
+ .data          0xc3e3c158        0x0 common/libcommon.a(cmd_max8997.o)
+ .data          0xc3e3c158        0x0 common/libcommon.a(cmd_mdmupgrade.o)
+ .data          0xc3e3c158        0x4 common/libcommon.a(cmd_mem.o)
+                0xc3e3c158                dp_last_length
+ .data          0xc3e3c15c        0x0 common/libcommon.a(cmd_misc.o)
+ .data          0xc3e3c15c        0x0 common/libcommon.a(cmd_mmc.o)
+ .data          0xc3e3c15c        0x0 common/libcommon.a(cmd_mmc_fdisk.o)
+ .data          0xc3e3c15c        0x0 common/libcommon.a(cmd_movi.o)
+ .data          0xc3e3c15c        0x4 common/libcommon.a(cmd_nvedit.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(cmd_source.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(cmd_usbd.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(cmd_version.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(cmd_ximg.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(command.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(console.o)
+ .data          0xc3e3c160        0x0 common/libcommon.a(decompress_ext4.o)
+ .data          0xc3e3c160      0x414 common/libcommon.a(dlmalloc.o)
+ .data          0xc3e3c574        0x4 common/libcommon.a(env_auto.o)
+                0xc3e3c574                env_name_spec
+ .data          0xc3e3c578       0x8c common/libcommon.a(env_common.o)
+                0xc3e3c578                default_environment
+                0xc3e3c600                default_environment_size
+ .data          0xc3e3c604        0x0 common/libcommon.a(exports.o)
+ .data          0xc3e3c604      0x228 common/libcommon.a(image.o)
+ .data          0xc3e3c82c       0x14 common/libcommon.a(main.o)
+ .data          0xc3e3c840        0x0 common/libcommon.a(s_record.o)
+ .data          0xc3e3c840        0xc common/libcommon.a(stdio.o)
+                0xc3e3c840                stdio_names
+ .data          0xc3e3c84c        0x0 common/libcommon.a(xyzModem.o)
+ .data          0xc3e3c84c        0x4 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                0xc3e3c84c                dmc_density
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(crc16.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(crc32.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(display_options.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(net_utils.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .data          0xc3e3c850        0x0 lib_generic/libgeneric.a(zlib.o)
+ .data          0xc3e3c850      0x100 lib_generic/libgeneric.a(ctype.o)
+                0xc3e3c850                _ctype
+ .data          0xc3e3c950        0x0 lib_generic/libgeneric.a(div64.o)
+ .data          0xc3e3c950        0x0 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .data          0xc3e3c950        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .data          0xc3e3c950       0x38 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                0xc3e3c950                test_pkt
+ .data          0xc3e3c988        0x4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+                0xc3e3c988                CORE_NUM_STR
+ .data          0xc3e3c98c      0x100 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                0xc3e3c98c                fboot_test_pkt
+                0xc3e3c9c4                ptable_default
+                0xc3e3ca88                ptable_default_size
+ .data          0xc3e3ca8c        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .data          0xc3e3ca8c        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .data          0xc3e3ca8c       0xd8 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .data          0xc3e3cb64        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .data          0xc3e3cb64        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .data          0xc3e3cb64        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .data          0xc3e3cb64        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .data          0xc3e3cb64        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .data          0xc3e3cb64        0x4 lib_arm/libarm.a(bootm.o)
+                0xc3e3cb64                nr_dram_banks
+ .data          0xc3e3cb68        0x0 lib_arm/libarm.a(cache.o)
+ .data          0xc3e3cb68        0x4 fs/fat/libfat.a(fat.o)
+ .data          0xc3e3cb6c        0x8 fs/ext2/libext2fs.a(ext2fs.o)
+                0xc3e3cb6c                indir1_blkno
+                0xc3e3cb70                indir2_blkno
+ .data          0xc3e3cb74        0x0 fs/ext2/libext2fs.a(dev.o)
+ .data          0xc3e3cb74        0x0 disk/libdisk.a(part.o)
+ .data          0xc3e3cb74        0x0 disk/libdisk.a(part_dos.o)
+ .data          0xc3e3cb74        0x0 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .data          0xc3e3cb74        0x0 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .data          0xc3e3cb74        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+                0xc3e3cb74                . = ALIGN (0x4)
+
+.got
+ *(.got)
+                0xc3e3cb74                __u_boot_cmd_start = .
+
+.u_boot_cmd     0xc3e3cb74      0x510
+ *(.u_boot_cmd)
+ .u_boot_cmd    0xc3e3cb74       0x18 common/libcommon.a(cmd_bdinfo.o)
+                0xc3e3cb74                __u_boot_cmd_bdinfo
+ .u_boot_cmd    0xc3e3cb8c       0x30 common/libcommon.a(cmd_boot.o)
+                0xc3e3cb8c                __u_boot_cmd_go
+                0xc3e3cba4                __u_boot_cmd_reset
+ .u_boot_cmd    0xc3e3cbbc       0x60 common/libcommon.a(cmd_bootm.o)
+                0xc3e3cbbc                __u_boot_cmd_bootm
+                0xc3e3cbd4                __u_boot_cmd_boot
+                0xc3e3cbec                __u_boot_cmd_bootd
+                0xc3e3cc04                __u_boot_cmd_iminfo
+ .u_boot_cmd    0xc3e3cc1c       0x18 common/libcommon.a(cmd_console.o)
+                0xc3e3cc1c                __u_boot_cmd_coninfo
+ .u_boot_cmd    0xc3e3cc34       0x18 common/libcommon.a(cmd_echo.o)
+                0xc3e3cc34                __u_boot_cmd_echo
+ .u_boot_cmd    0xc3e3cc4c       0x30 common/libcommon.a(cmd_elf.o)
+                0xc3e3cc4c                __u_boot_cmd_bootelf
+                0xc3e3cc64                __u_boot_cmd_bootvx
+ .u_boot_cmd    0xc3e3cc7c       0x60 common/libcommon.a(cmd_ext2.o)
+                0xc3e3cc7c                __u_boot_cmd_ext2ls
+                0xc3e3cc94                __u_boot_cmd_ext2load
+                0xc3e3ccac                __u_boot_cmd_ext2format
+                0xc3e3ccc4                __u_boot_cmd_ext3format
+ .u_boot_cmd    0xc3e3ccdc       0x30 common/libcommon.a(cmd_fastboot.o)
+                0xc3e3ccdc                __u_boot_cmd_fastboot
+                0xc3e3ccf4                __u_boot_cmd_sdfuse
+ .u_boot_cmd    0xc3e3cd0c       0x60 common/libcommon.a(cmd_fat.o)
+                0xc3e3cd0c                __u_boot_cmd_fatload
+                0xc3e3cd24                __u_boot_cmd_fatls
+                0xc3e3cd3c                __u_boot_cmd_fatinfo
+                0xc3e3cd54                __u_boot_cmd_fatformat
+ .u_boot_cmd    0xc3e3cd6c       0x30 common/libcommon.a(cmd_help.o)
+                0xc3e3cd6c                __u_boot_cmd_help
+                0xc3e3cd84                __u_boot_cmd_question_mark
+ .u_boot_cmd    0xc3e3cd9c       0x18 common/libcommon.a(cmd_itest.o)
+                0xc3e3cd9c                __u_boot_cmd_itest
+ .u_boot_cmd    0xc3e3cdb4       0x48 common/libcommon.a(cmd_load.o)
+                0xc3e3cdb4                __u_boot_cmd_loads
+                0xc3e3cdcc                __u_boot_cmd_loadb
+                0xc3e3cde4                __u_boot_cmd_loady
+ .u_boot_cmd    0xc3e3cdfc       0x18 common/libcommon.a(cmd_max8997.o)
+                0xc3e3cdfc                __u_boot_cmd_max8997
+ .u_boot_cmd    0xc3e3ce14       0x18 common/libcommon.a(cmd_mdmupgrade.o)
+                0xc3e3ce14                __u_boot_cmd_mdmup
+ .u_boot_cmd    0xc3e3ce2c       0xf0 common/libcommon.a(cmd_mem.o)
+                0xc3e3ce2c                __u_boot_cmd_md
+                0xc3e3ce44                __u_boot_cmd_mm
+                0xc3e3ce5c                __u_boot_cmd_nm
+                0xc3e3ce74                __u_boot_cmd_mw
+                0xc3e3ce8c                __u_boot_cmd_cp
+                0xc3e3cea4                __u_boot_cmd_cmp
+                0xc3e3cebc                __u_boot_cmd_crc32
+                0xc3e3ced4                __u_boot_cmd_base
+                0xc3e3ceec                __u_boot_cmd_loop
+                0xc3e3cf04                __u_boot_cmd_mtest
+ .u_boot_cmd    0xc3e3cf1c       0x18 common/libcommon.a(cmd_misc.o)
+                0xc3e3cf1c                __u_boot_cmd_sleep
+ .u_boot_cmd    0xc3e3cf34       0x48 common/libcommon.a(cmd_mmc.o)
+                0xc3e3cf34                __u_boot_cmd_mmcinfo
+                0xc3e3cf4c                __u_boot_cmd_emmc
+                0xc3e3cf64                __u_boot_cmd_mmc
+ .u_boot_cmd    0xc3e3cf7c       0x18 common/libcommon.a(cmd_mmc_fdisk.o)
+                0xc3e3cf7c                __u_boot_cmd_fdisk
+ .u_boot_cmd    0xc3e3cf94       0x18 common/libcommon.a(cmd_movi.o)
+                0xc3e3cf94                __u_boot_cmd_movi
+ .u_boot_cmd    0xc3e3cfac       0x78 common/libcommon.a(cmd_nvedit.o)
+                0xc3e3cfac                __u_boot_cmd_saveenv
+                0xc3e3cfc4                __u_boot_cmd_editenv
+                0xc3e3cfdc                __u_boot_cmd_printenv
+                0xc3e3cff4                __u_boot_cmd_setenv
+                0xc3e3d00c                __u_boot_cmd_run
+ .u_boot_cmd    0xc3e3d024       0x18 common/libcommon.a(cmd_source.o)
+                0xc3e3d024                __u_boot_cmd_source
+ .u_boot_cmd    0xc3e3d03c       0x18 common/libcommon.a(cmd_usbd.o)
+                0xc3e3d03c                __u_boot_cmd_dnw
+ .u_boot_cmd    0xc3e3d054       0x18 common/libcommon.a(cmd_version.o)
+                0xc3e3d054                __u_boot_cmd_version
+ .u_boot_cmd    0xc3e3d06c       0x18 common/libcommon.a(cmd_ximg.o)
+                0xc3e3d06c                __u_boot_cmd_imxtract
+                0xc3e3d084                __u_boot_cmd_end = .
+                0xc3e3d084                . = ALIGN (0x4)
+                0xc3e3d084                __bss_start = .
+
+.bss            0xc3e3d088   0x132c18
+ *(.bss)
+ .bss           0xc3e3d088        0x0 cpu/arm_cortexa9/start.o
+ .bss           0xc3e3d088        0x0 cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .bss           0xc3e3d088        0x0 board/samsung/smdkc210/lowlevel_init.o
+ .bss           0xc3e3d088        0x0 common/ace_sha1.o
+ .bss           0xc3e3d088        0x4 lib_generic/libgeneric.a(string.o)
+                0xc3e3d088                ___strtok
+ .bss           0xc3e3d08c        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .bss           0xc3e3d08c        0xc cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+                0xc3e3d08c                timer_load_val
+ .bss           0xc3e3d098        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .bss           0xc3e3d098        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .bss           0xc3e3d098        0x4 lib_arm/libarm.a(board.o)
+                0xc3e3d098                monitor_flash_len
+ .bss           0xc3e3d09c       0x18 drivers/mmc/libmmc.a(mmc.o)
+                0xc3e3d0a4                mmc_global
+                0xc3e3d0b0                mmc_default
+ .bss           0xc3e3d0b4        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .bss           0xc3e3d0b4        0x0 common/libcommon.a(cmd_boot.o)
+ .bss           0xc3e3d0b4       0x8c common/libcommon.a(cmd_bootm.o)
+ .bss           0xc3e3d140        0x0 common/libcommon.a(cmd_console.o)
+ .bss           0xc3e3d140        0x0 common/libcommon.a(cmd_echo.o)
+ .bss           0xc3e3d140        0x0 common/libcommon.a(cmd_elf.o)
+ .bss           0xc3e3d140        0x0 common/libcommon.a(cmd_ext2.o)
+ .bss           0xc3e3d140      0x1d8 common/libcommon.a(cmd_fastboot.o)
+                0xc3e3d310                dev_number_write
+                0xc3e3d314                fuse_by_fastboot
+ .bss           0xc3e3d318        0x0 common/libcommon.a(cmd_fat.o)
+ .bss           0xc3e3d318        0x0 common/libcommon.a(cmd_help.o)
+ .bss           0xc3e3d318        0x0 common/libcommon.a(cmd_itest.o)
+ .bss           0xc3e3d318       0x60 common/libcommon.a(cmd_load.o)
+                0xc3e3d328                os_data_init
+                0xc3e3d338                os_data_char
+                0xc3e3d33c                his_quote
+                0xc3e3d340                his_pad_count
+                0xc3e3d344                his_pad_char
+                0xc3e3d345                his_eol
+                0xc3e3d348                send_ptr
+                0xc3e3d34c                send_parms
+ .bss           0xc3e3d378        0x0 common/libcommon.a(cmd_max8997.o)
+ .bss           0xc3e3d378        0x0 common/libcommon.a(cmd_mdmupgrade.o)
+ .bss           0xc3e3d378       0x14 common/libcommon.a(cmd_mem.o)
+                0xc3e3d37c                mm_last_addr
+                0xc3e3d380                mm_last_size
+                0xc3e3d384                dp_last_addr
+                0xc3e3d388                dp_last_size
+ .bss           0xc3e3d38c        0x0 common/libcommon.a(cmd_misc.o)
+ .bss           0xc3e3d38c        0x0 common/libcommon.a(cmd_mmc.o)
+ .bss           0xc3e3d38c        0x0 common/libcommon.a(cmd_mmc_fdisk.o)
+ .bss           0xc3e3d38c      0x200 common/libcommon.a(cmd_movi.o)
+                0xc3e3d38c                raw_area_control
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(cmd_nvedit.o)
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(cmd_source.o)
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(cmd_usbd.o)
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(cmd_version.o)
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(cmd_ximg.o)
+ .bss           0xc3e3d58c        0x0 common/libcommon.a(command.o)
+ .bss           0xc3e3d58c        0x8 common/libcommon.a(console.o)
+ .bss           0xc3e3d594        0x0 common/libcommon.a(decompress_ext4.o)
+ .bss           0xc3e3d594       0x44 common/libcommon.a(dlmalloc.o)
+                0xc3e3d594                mem_malloc_brk
+                0xc3e3d598                mem_malloc_start
+                0xc3e3d59c                mem_malloc_end
+ .bss           0xc3e3d5d8        0x4 common/libcommon.a(env_auto.o)
+                0xc3e3d5d8                env_ptr
+ .bss           0xc3e3d5dc        0x0 common/libcommon.a(env_common.o)
+ .bss           0xc3e3d5dc        0x0 common/libcommon.a(exports.o)
+ .bss           0xc3e3d5dc        0x0 common/libcommon.a(image.o)
+ .bss           0xc3e3d5dc     0x1660 common/libcommon.a(main.o)
+                0xc3e3d5e8                hist_num
+                0xc3e3d5ec                hist_lines
+                0xc3e3e9ec                hist_list
+                0xc3e3ea3c                console_buffer
+ .bss           0xc3e3ec3c        0x0 common/libcommon.a(s_record.o)
+ .bss           0xc3e3ec3c       0x48 common/libcommon.a(stdio.o)
+                0xc3e3ec78                stdio_devices
+ .bss           0xc3e3ec84      0x43c common/libcommon.a(xyzModem.o)
+ .bss           0xc3e3f0c0        0x8 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                0xc3e3f0c0                OmPin
+                0xc3e3f0c4                boot_mode
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(crc16.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(crc32.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(display_options.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(net_utils.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(zlib.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(ctype.o)
+ .bss           0xc3e3f0c8        0x0 lib_generic/libgeneric.a(div64.o)
+ .bss           0xc3e3f0c8        0x0 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .bss           0xc3e3f0c8        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .bss           0xc3e3f0c8       0xb0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                0xc3e3f0c8                otg
+                0xc3e3f14c                remode_wakeup
+                0xc3e3f150                get_status
+                0xc3e3f156                config_value
+                0xc3e3f158                get_intf
+                0xc3e3f15c                s3c_usbd_dn_addr
+                0xc3e3f160                op_mode
+                0xc3e3f164                s3c_usbd_dn_cnt
+                0xc3e3f168                s3c_receive_done
+                0xc3e3f16c                speed
+                0xc3e3f170                s3c_got_header
+                0xc3e3f174                DNW
+ .bss           0xc3e3f178        0x4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+                0xc3e3f178                s5pc210_cpu_id
+ .bss           0xc3e3f17c      0x2f0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                0xc3e3f17c                fboot_otg
+                0xc3e3f200                fboot_remode_wakeup
+                0xc3e3f204                fboot_get_status
+                0xc3e3f20a                fboot_config_value
+                0xc3e3f20c                fboot_get_intf
+                0xc3e3f210                fboot_usbd_dn_addr
+                0xc3e3f214                fboot_response_flag
+                0xc3e3f218                reply_msg
+                0xc3e3f21c                fboot_op_mode
+                0xc3e3f220                fboot_usbd_dn_cnt
+                0xc3e3f224                fboot_receive_done
+                0xc3e3f228                fboot_speed
+                0xc3e3f45c                transfer_size
+                0xc3e3f460                fboot_got_header
+                0xc3e3f464                tx_msg_buf
+                0xc3e3f468                total_dn_size
+ .bss           0xc3e3f46c        0x4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+                0xc3e3f46c                Is_TC4_Dvt
+ .bss           0xc3e3f470        0x8 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+                0xc3e3f474                g_IntCnt
+ .bss           0xc3e3f478        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .bss           0xc3e3f478        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .bss           0xc3e3f478        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .bss           0xc3e3f478        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .bss           0xc3e3f478        0x4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+                0xc3e3f478                sclk_mmc4
+ .bss           0xc3e3f47c        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .bss           0xc3e3f47c        0x4 lib_arm/libarm.a(bootm.o)
+ .bss           0xc3e3f480        0x0 lib_arm/libarm.a(cache.o)
+ .bss           0xc3e3f480    0x30008 fs/fat/libfat.a(fat.o)
+                0xc3e3f488                get_vfatname_block
+                0xc3e4f488                do_fat_read_block
+                0xc3e5f488                get_dentfromdir_block
+ .bss           0xc3e6f488       0x1c fs/ext2/libext2fs.a(ext2fs.o)
+                0xc3e6f488                ext2fs_root
+                0xc3e6f48c                ext2fs_file
+                0xc3e6f490                indir1_block
+                0xc3e6f494                indir1_size
+                0xc3e6f498                indir2_block
+                0xc3e6f49c                indir2_size
+                0xc3e6f4a0                symlinknest
+ .bss           0xc3e6f4a4       0x50 fs/ext2/libext2fs.a(dev.o)
+ .bss           0xc3e6f4f4        0x0 disk/libdisk.a(part.o)
+ .bss           0xc3e6f4f4        0x0 disk/libdisk.a(part_dos.o)
+ *fill*         0xc3e6f4f4        0x4 00
+ .bss           0xc3e6f4f8      0x118 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+                0xc3e6f4f8                mmc_host
+ .bss           0xc3e6f610   0x100690 drivers/mmc/libmmc.a(s5p_mshc.o)
+                0xc3e6f610                mmc_channel
+                0xc3e6fb78                mshc_host
+                0xc3e6fc90                emmc_bit_pre
+                0xc3e6fc94                emmc_mode_pre
+                0xc3e6fc98                emmc_clock_pre
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .bss           0xc3f6fca0        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+                0xc3f6fca0                _end = .
+Address of section .text set to 0xc3e00000
+LOAD cpu/arm_cortexa9/start.o
+START GROUP
+LOAD lib_generic/libgeneric.a
+LOAD lib_generic/lzma/liblzma.a
+LOAD lib_generic/lzo/liblzo.a
+LOAD cpu/arm_cortexa9/libarm_cortexa9.a
+LOAD cpu/arm_cortexa9/s5pc210/libs5pc210.a
+LOAD lib_arm/libarm.a
+LOAD fs/cramfs/libcramfs.a
+LOAD fs/fat/libfat.a
+LOAD fs/fdos/libfdos.a
+LOAD fs/jffs2/libjffs2.a
+LOAD fs/reiserfs/libreiserfs.a
+LOAD fs/ext2/libext2fs.a
+LOAD fs/yaffs2/libyaffs2.a
+LOAD fs/ubifs/libubifs.a
+LOAD net/libnet.a
+LOAD disk/libdisk.a
+LOAD drivers/bios_emulator/libatibiosemu.a
+LOAD drivers/block/libblock.a
+LOAD drivers/dma/libdma.a
+LOAD drivers/fpga/libfpga.a
+LOAD drivers/gpio/libgpio.a
+LOAD drivers/hwmon/libhwmon.a
+LOAD drivers/i2c/libi2c.a
+LOAD drivers/input/libinput.a
+LOAD drivers/misc/libmisc.a
+LOAD drivers/mmc/libmmc.a
+LOAD drivers/mtd/libmtd.a
+LOAD drivers/mtd/nand/libnand.a
+LOAD drivers/mtd/onenand/libonenand.a
+LOAD drivers/mtd/ubi/libubi.a
+LOAD drivers/mtd/spi/libspi_flash.a
+LOAD drivers/net/libnet.a
+LOAD drivers/net/phy/libphy.a
+LOAD drivers/pci/libpci.a
+LOAD drivers/pcmcia/libpcmcia.a
+LOAD drivers/power/libpower.a
+LOAD drivers/spi/libspi.a
+LOAD drivers/rtc/librtc.a
+LOAD drivers/serial/libserial.a
+LOAD drivers/twserial/libtws.a
+LOAD drivers/usb/gadget/libusb_gadget.a
+LOAD drivers/usb/host/libusb_host.a
+LOAD drivers/usb/musb/libusb_musb.a
+LOAD drivers/usb/phy/libusb_phy.a
+LOAD drivers/video/libvideo.a
+LOAD drivers/watchdog/libwatchdog.a
+LOAD common/libcommon.a
+LOAD libfdt/libfdt.a
+LOAD api/libapi.a
+LOAD post/libpost.a
+LOAD board/samsung/smdkc210/libsmdkc210.a
+END GROUP
+LOAD /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+LOAD /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a
+OUTPUT(u-boot elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d cpu/arm_cortexa9/start.o
+ .ARM.attributes
+                0x0000001d       0x1d cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .ARM.attributes
+                0x0000003a       0x1d board/samsung/smdkc210/lowlevel_init.o
+ .ARM.attributes
+                0x00000057       0x2d common/ace_sha1.o
+ .ARM.attributes
+                0x00000084       0x2d lib_generic/libgeneric.a(string.o)
+ .ARM.attributes
+                0x000000b1       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .ARM.attributes
+                0x000000de       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .ARM.attributes
+                0x0000010b       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .ARM.attributes
+                0x00000138       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .ARM.attributes
+                0x00000165       0x2d lib_arm/libarm.a(board.o)
+ .ARM.attributes
+                0x00000192       0x2d drivers/mmc/libmmc.a(mmc.o)
+ .ARM.attributes
+                0x000001bf       0x2d common/libcommon.a(cmd_bdinfo.o)
+ .ARM.attributes
+                0x000001ec       0x2d common/libcommon.a(cmd_boot.o)
+ .ARM.attributes
+                0x00000219       0x2d common/libcommon.a(cmd_bootm.o)
+ .ARM.attributes
+                0x00000246       0x2d common/libcommon.a(cmd_console.o)
+ .ARM.attributes
+                0x00000273       0x2d common/libcommon.a(cmd_echo.o)
+ .ARM.attributes
+                0x000002a0       0x2d common/libcommon.a(cmd_elf.o)
+ .ARM.attributes
+                0x000002cd       0x2d common/libcommon.a(cmd_ext2.o)
+ .ARM.attributes
+                0x000002fa       0x2d common/libcommon.a(cmd_fastboot.o)
+ .ARM.attributes
+                0x00000327       0x2d common/libcommon.a(cmd_fat.o)
+ .ARM.attributes
+                0x00000354       0x2d common/libcommon.a(cmd_help.o)
+ .ARM.attributes
+                0x00000381       0x2d common/libcommon.a(cmd_itest.o)
+ .ARM.attributes
+                0x000003ae       0x2d common/libcommon.a(cmd_load.o)
+ .ARM.attributes
+                0x000003db       0x2d common/libcommon.a(cmd_max8997.o)
+ .ARM.attributes
+                0x00000408       0x2d common/libcommon.a(cmd_mdmupgrade.o)
+ .ARM.attributes
+                0x00000435       0x2d common/libcommon.a(cmd_mem.o)
+ .ARM.attributes
+                0x00000462       0x2d common/libcommon.a(cmd_misc.o)
+ .ARM.attributes
+                0x0000048f       0x2d common/libcommon.a(cmd_mmc.o)
+ .ARM.attributes
+                0x000004bc       0x2d common/libcommon.a(cmd_mmc_fdisk.o)
+ .ARM.attributes
+                0x000004e9       0x2d common/libcommon.a(cmd_movi.o)
+ .ARM.attributes
+                0x00000516       0x2d common/libcommon.a(cmd_nvedit.o)
+ .ARM.attributes
+                0x00000543       0x2d common/libcommon.a(cmd_source.o)
+ .ARM.attributes
+                0x00000570       0x2d common/libcommon.a(cmd_usbd.o)
+ .ARM.attributes
+                0x0000059d       0x2d common/libcommon.a(cmd_version.o)
+ .ARM.attributes
+                0x000005ca       0x2d common/libcommon.a(cmd_ximg.o)
+ .ARM.attributes
+                0x000005f7       0x2d common/libcommon.a(command.o)
+ .ARM.attributes
+                0x00000624       0x2d common/libcommon.a(console.o)
+ .ARM.attributes
+                0x00000651       0x2d common/libcommon.a(decompress_ext4.o)
+ .ARM.attributes
+                0x0000067e       0x2d common/libcommon.a(dlmalloc.o)
+ .ARM.attributes
+                0x000006ab       0x2d common/libcommon.a(env_auto.o)
+ .ARM.attributes
+                0x000006d8       0x2d common/libcommon.a(env_common.o)
+ .ARM.attributes
+                0x00000705       0x2d common/libcommon.a(exports.o)
+ .ARM.attributes
+                0x00000732       0x2d common/libcommon.a(image.o)
+ .ARM.attributes
+                0x0000075f       0x2d common/libcommon.a(main.o)
+ .ARM.attributes
+                0x0000078c       0x2d common/libcommon.a(s_record.o)
+ .ARM.attributes
+                0x000007b9       0x2d common/libcommon.a(stdio.o)
+ .ARM.attributes
+                0x000007e6       0x2d common/libcommon.a(xyzModem.o)
+ .ARM.attributes
+                0x00000813       0x2d board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .ARM.attributes
+                0x00000840       0x2d lib_generic/libgeneric.a(crc16.o)
+ .ARM.attributes
+                0x0000086d       0x2d lib_generic/libgeneric.a(crc32.o)
+ .ARM.attributes
+                0x0000089a       0x2d lib_generic/libgeneric.a(display_options.o)
+ .ARM.attributes
+                0x000008c7       0x2d lib_generic/libgeneric.a(gunzip.o)
+ .ARM.attributes
+                0x000008f4       0x2d lib_generic/libgeneric.a(net_utils.o)
+ .ARM.attributes
+                0x00000921       0x2d lib_generic/libgeneric.a(vsprintf.o)
+ .ARM.attributes
+                0x0000094e       0x2d lib_generic/libgeneric.a(zlib.o)
+ .ARM.attributes
+                0x0000097b       0x2d lib_generic/libgeneric.a(ctype.o)
+ .ARM.attributes
+                0x000009a8       0x2d lib_generic/libgeneric.a(div64.o)
+ .ARM.attributes
+                0x000009d5       0x2d cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .ARM.attributes
+                0x00000a02       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .ARM.attributes
+                0x00000a2f       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .ARM.attributes
+                0x00000a5c       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .ARM.attributes
+                0x00000a89       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .ARM.attributes
+                0x00000ab6       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .ARM.attributes
+                0x00000ae3       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .ARM.attributes
+                0x00000b10       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .ARM.attributes
+                0x00000b3d       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .ARM.attributes
+                0x00000b6a       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .ARM.attributes
+                0x00000b97       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .ARM.attributes
+                0x00000bc4       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .ARM.attributes
+                0x00000bf1       0x2d cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .ARM.attributes
+                0x00000c1e       0x2d lib_arm/libarm.a(bootm.o)
+ .ARM.attributes
+                0x00000c4b       0x2d lib_arm/libarm.a(cache.o)
+ .ARM.attributes
+                0x00000c78       0x2d fs/fat/libfat.a(fat.o)
+ .ARM.attributes
+                0x00000ca5       0x2d fs/ext2/libext2fs.a(ext2fs.o)
+ .ARM.attributes
+                0x00000cd2       0x2d fs/ext2/libext2fs.a(dev.o)
+ .ARM.attributes
+                0x00000cff       0x2d disk/libdisk.a(part.o)
+ .ARM.attributes
+                0x00000d2c       0x2d disk/libdisk.a(part_dos.o)
+ .ARM.attributes
+                0x00000d59       0x2d drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .ARM.attributes
+                0x00000d86       0x2d drivers/mmc/libmmc.a(s5p_mshc.o)
+ .ARM.attributes
+                0x00000db3       0x2d /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .ARM.attributes
+                0x00000de0       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000dfa       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000e14       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000e2e       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000e48       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000e62       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x00000e7c       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .ARM.attributes
+                0x00000e96       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .ARM.attributes
+                0x00000eb0       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000eca       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .ARM.attributes
+                0x00000ee4       0x1a /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.comment        0x00000000       0x18
+ .comment       0x00000000       0x18 common/ace_sha1.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(string.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .comment       0x00000000       0x19 lib_arm/libarm.a(board.o)
+ .comment       0x00000000       0x19 drivers/mmc/libmmc.a(mmc.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_bdinfo.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_boot.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_bootm.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_console.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_echo.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_elf.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_ext2.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_fastboot.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_fat.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_help.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_itest.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_load.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_max8997.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_mdmupgrade.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_mem.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_misc.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_mmc.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_mmc_fdisk.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_movi.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_nvedit.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_source.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_usbd.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_version.o)
+ .comment       0x00000000       0x19 common/libcommon.a(cmd_ximg.o)
+ .comment       0x00000000       0x19 common/libcommon.a(command.o)
+ .comment       0x00000000       0x19 common/libcommon.a(console.o)
+ .comment       0x00000000       0x19 common/libcommon.a(decompress_ext4.o)
+ .comment       0x00000000       0x19 common/libcommon.a(dlmalloc.o)
+ .comment       0x00000000       0x19 common/libcommon.a(env_auto.o)
+ .comment       0x00000000       0x19 common/libcommon.a(env_common.o)
+ .comment       0x00000000       0x19 common/libcommon.a(exports.o)
+ .comment       0x00000000       0x19 common/libcommon.a(image.o)
+ .comment       0x00000000       0x19 common/libcommon.a(main.o)
+ .comment       0x00000000       0x19 common/libcommon.a(s_record.o)
+ .comment       0x00000000       0x19 common/libcommon.a(stdio.o)
+ .comment       0x00000000       0x19 common/libcommon.a(xyzModem.o)
+ .comment       0x00000000       0x19 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(crc16.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(crc32.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(display_options.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(gunzip.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(net_utils.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(vsprintf.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(zlib.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(ctype.o)
+ .comment       0x00000000       0x19 lib_generic/libgeneric.a(div64.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .comment       0x00000000       0x19 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .comment       0x00000000       0x19 lib_arm/libarm.a(bootm.o)
+ .comment       0x00000000       0x19 lib_arm/libarm.a(cache.o)
+ .comment       0x00000000       0x19 fs/fat/libfat.a(fat.o)
+ .comment       0x00000000       0x19 fs/ext2/libext2fs.a(ext2fs.o)
+ .comment       0x00000000       0x19 fs/ext2/libext2fs.a(dev.o)
+ .comment       0x00000000       0x19 disk/libdisk.a(part.o)
+ .comment       0x00000000       0x19 disk/libdisk.a(part_dos.o)
+ .comment       0x00000000       0x19 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .comment       0x00000000       0x19 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .comment       0x00000000       0x19 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 common/ace_sha1.o
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(string.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(board.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mmc/libmmc.a(mmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_bdinfo.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_boot.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_bootm.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_console.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_echo.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_elf.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_ext2.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_fastboot.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_fat.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_help.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_itest.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_load.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_max8997.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mdmupgrade.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mem.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_misc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_mmc_fdisk.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_movi.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_nvedit.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_source.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_usbd.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_version.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(cmd_ximg.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(command.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(console.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(decompress_ext4.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(dlmalloc.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(env_auto.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(env_common.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(exports.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(image.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(main.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(s_record.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(stdio.o)
+ .note.GNU-stack
+                0x00000000        0x0 common/libcommon.a(xyzModem.o)
+ .note.GNU-stack
+                0x00000000        0x0 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(crc16.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(crc32.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(display_options.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(gunzip.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(net_utils.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(vsprintf.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(zlib.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(ctype.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_generic/libgeneric.a(div64.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(bootm.o)
+ .note.GNU-stack
+                0x00000000        0x0 lib_arm/libarm.a(cache.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/fat/libfat.a(fat.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/ext2/libext2fs.a(ext2fs.o)
+ .note.GNU-stack
+                0x00000000        0x0 fs/ext2/libext2fs.a(dev.o)
+ .note.GNU-stack
+                0x00000000        0x0 disk/libdisk.a(part.o)
+ .note.GNU-stack
+                0x00000000        0x0 disk/libdisk.a(part_dos.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .note.GNU-stack
+                0x00000000        0x0 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.debug_line     0x00000000     0xd315
+ .debug_line    0x00000000      0x162 cpu/arm_cortexa9/start.o
+ .debug_line    0x00000162      0x10f cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .debug_line    0x00000271      0x1df board/samsung/smdkc210/lowlevel_init.o
+ .debug_line    0x00000450       0x5d common/ace_sha1.o
+ .debug_line    0x000004ad      0x22f lib_generic/libgeneric.a(string.o)
+ .debug_line    0x000006dc      0x10c cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_line    0x000007e8      0x2c9 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_line    0x00000ab1       0xa0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_line    0x00000b51      0x163 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_line    0x00000cb4      0x1de lib_arm/libarm.a(board.o)
+ .debug_line    0x00000e92      0x6f7 drivers/mmc/libmmc.a(mmc.o)
+ .debug_line    0x00001589      0x14c common/libcommon.a(cmd_bdinfo.o)
+ .debug_line    0x000016d5       0xe8 common/libcommon.a(cmd_boot.o)
+ .debug_line    0x000017bd      0x43f common/libcommon.a(cmd_bootm.o)
+ .debug_line    0x00001bfc      0x109 common/libcommon.a(cmd_console.o)
+ .debug_line    0x00001d05       0x99 common/libcommon.a(cmd_echo.o)
+ .debug_line    0x00001d9e      0x1e0 common/libcommon.a(cmd_elf.o)
+ .debug_line    0x00001f7e      0x19f common/libcommon.a(cmd_ext2.o)
+ .debug_line    0x0000211d      0x677 common/libcommon.a(cmd_fastboot.o)
+ .debug_line    0x00002794      0x187 common/libcommon.a(cmd_fat.o)
+ .debug_line    0x0000291b       0x8a common/libcommon.a(cmd_help.o)
+ .debug_line    0x000029a5      0x12c common/libcommon.a(cmd_itest.o)
+ .debug_line    0x00002ad1      0x421 common/libcommon.a(cmd_load.o)
+ .debug_line    0x00002ef2       0x9e common/libcommon.a(cmd_max8997.o)
+ .debug_line    0x00002f90       0xac common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_line    0x0000303c      0x26c common/libcommon.a(cmd_mem.o)
+ .debug_line    0x000032a8       0xe7 common/libcommon.a(cmd_misc.o)
+ .debug_line    0x0000338f      0x29a common/libcommon.a(cmd_mmc.o)
+ .debug_line    0x00003629      0x2f1 common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_line    0x0000391a      0x279 common/libcommon.a(cmd_movi.o)
+ .debug_line    0x00003b93      0x2e4 common/libcommon.a(cmd_nvedit.o)
+ .debug_line    0x00003e77      0x1fa common/libcommon.a(cmd_source.o)
+ .debug_line    0x00004071       0xd0 common/libcommon.a(cmd_usbd.o)
+ .debug_line    0x00004141       0x8b common/libcommon.a(cmd_version.o)
+ .debug_line    0x000041cc      0x1fe common/libcommon.a(cmd_ximg.o)
+ .debug_line    0x000043ca       0xf5 common/libcommon.a(command.o)
+ .debug_line    0x000044bf      0x2e9 common/libcommon.a(console.o)
+ .debug_line    0x000047a8       0xd8 common/libcommon.a(decompress_ext4.o)
+ .debug_line    0x00004880      0x41d common/libcommon.a(dlmalloc.o)
+ .debug_line    0x00004c9d      0x1b5 common/libcommon.a(env_auto.o)
+ .debug_line    0x00004e52      0x196 common/libcommon.a(env_common.o)
+ .debug_line    0x00004fe8      0x1a3 common/libcommon.a(exports.o)
+ .debug_line    0x0000518b      0x3d8 common/libcommon.a(image.o)
+ .debug_line    0x00005563      0x39c common/libcommon.a(main.o)
+ .debug_line    0x000058ff       0xfa common/libcommon.a(s_record.o)
+ .debug_line    0x000059f9      0x1af common/libcommon.a(stdio.o)
+ .debug_line    0x00005ba8      0x21e common/libcommon.a(xyzModem.o)
+ .debug_line    0x00005dc6      0x1a3 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_line    0x00005f69       0xde lib_generic/libgeneric.a(crc16.o)
+ .debug_line    0x00006047      0x170 lib_generic/libgeneric.a(crc32.o)
+ .debug_line    0x000061b7      0x144 lib_generic/libgeneric.a(display_options.o)
+ .debug_line    0x000062fb       0xe6 lib_generic/libgeneric.a(gunzip.o)
+ .debug_line    0x000063e1      0x18e lib_generic/libgeneric.a(net_utils.o)
+ .debug_line    0x0000656f      0x32a lib_generic/libgeneric.a(vsprintf.o)
+ .debug_line    0x00006899      0x6d2 lib_generic/libgeneric.a(zlib.o)
+ .debug_line    0x00006f6b       0x28 lib_generic/libgeneric.a(ctype.o)
+ .debug_line    0x00006f93       0xf3 lib_generic/libgeneric.a(div64.o)
+ .debug_line    0x00007086      0x23b cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_line    0x000072c1      0x16a cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_line    0x0000742b      0xaa2 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_line    0x00007ecd       0xb4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_line    0x00007f81      0xb9c cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_line    0x00008b1d      0x12c cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_line    0x00008c49      0xa12 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_line    0x0000965b      0x687 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_line    0x00009ce2      0x6bf cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_line    0x0000a3a1       0xf9 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_line    0x0000a49a      0x1df cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_line    0x0000a679      0x1d0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_line    0x0000a849      0x108 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_line    0x0000a951      0x1bf lib_arm/libarm.a(bootm.o)
+ .debug_line    0x0000ab10       0x38 lib_arm/libarm.a(cache.o)
+ .debug_line    0x0000ab48      0x5cc fs/fat/libfat.a(fat.o)
+ .debug_line    0x0000b114      0x9b9 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_line    0x0000bacd      0x177 fs/ext2/libext2fs.a(dev.o)
+ .debug_line    0x0000bc44      0x1d4 disk/libdisk.a(part.o)
+ .debug_line    0x0000be18      0x1cf disk/libdisk.a(part_dos.o)
+ .debug_line    0x0000bfe7      0x29c drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_line    0x0000c283      0x558 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_line    0x0000c7db       0x3f /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .debug_line    0x0000c81a       0xbf /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000c8d9       0xcb /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .debug_line    0x0000c9a4       0x9e /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000ca42      0x19d /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .debug_line    0x0000cbdf      0x1b5 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .debug_line    0x0000cd94       0xbe /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .debug_line    0x0000ce52      0x14e /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .debug_line    0x0000cfa0      0x158 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .debug_line    0x0000d0f8       0xd7 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x0000d1cf       0xab /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .debug_line    0x0000d27a       0x9b /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.debug_info     0x00000000    0x30c93
+ .debug_info    0x00000000       0x76 cpu/arm_cortexa9/start.o
+ .debug_info    0x00000076       0x81 cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .debug_info    0x000000f7       0x84 board/samsung/smdkc210/lowlevel_init.o
+ .debug_info    0x0000017b      0x10e common/ace_sha1.o
+ .debug_info    0x00000289      0xae0 lib_generic/libgeneric.a(string.o)
+ .debug_info    0x00000d69      0x1e2 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_info    0x00000f4b      0x78f cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_info    0x000016da      0x618 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_info    0x00001cf2      0x3c3 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_info    0x000020b5      0x4b1 lib_arm/libarm.a(board.o)
+ .debug_info    0x00002566     0x1bdd drivers/mmc/libmmc.a(mmc.o)
+ .debug_info    0x00004143      0x40b common/libcommon.a(cmd_bdinfo.o)
+ .debug_info    0x0000454e      0x23a common/libcommon.a(cmd_boot.o)
+ .debug_info    0x00004788     0x12f6 common/libcommon.a(cmd_bootm.o)
+ .debug_info    0x00005a7e      0x35b common/libcommon.a(cmd_console.o)
+ .debug_info    0x00005dd9      0x1c5 common/libcommon.a(cmd_echo.o)
+ .debug_info    0x00005f9e      0x65a common/libcommon.a(cmd_elf.o)
+ .debug_info    0x000065f8      0x6b4 common/libcommon.a(cmd_ext2.o)
+ .debug_info    0x00006cac     0x175e common/libcommon.a(cmd_fastboot.o)
+ .debug_info    0x0000840a      0x5ec common/libcommon.a(cmd_fat.o)
+ .debug_info    0x000089f6      0x1b7 common/libcommon.a(cmd_help.o)
+ .debug_info    0x00008bad      0x477 common/libcommon.a(cmd_itest.o)
+ .debug_info    0x00009024      0xe28 common/libcommon.a(cmd_load.o)
+ .debug_info    0x00009e4c      0x1ba common/libcommon.a(cmd_max8997.o)
+ .debug_info    0x0000a006      0x1a5 common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_info    0x0000a1ab      0x9fb common/libcommon.a(cmd_mem.o)
+ .debug_info    0x0000aba6      0x1b0 common/libcommon.a(cmd_misc.o)
+ .debug_info    0x0000ad56      0xc72 common/libcommon.a(cmd_mmc.o)
+ .debug_info    0x0000b9c8      0xd9e common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_info    0x0000c766      0x8e0 common/libcommon.a(cmd_movi.o)
+ .debug_info    0x0000d046      0x91d common/libcommon.a(cmd_nvedit.o)
+ .debug_info    0x0000d963      0x49f common/libcommon.a(cmd_source.o)
+ .debug_info    0x0000de02      0x1e7 common/libcommon.a(cmd_usbd.o)
+ .debug_info    0x0000dfe9      0x1a3 common/libcommon.a(cmd_version.o)
+ .debug_info    0x0000e18c      0x467 common/libcommon.a(cmd_ximg.o)
+ .debug_info    0x0000e5f3      0x389 common/libcommon.a(command.o)
+ .debug_info    0x0000e97c      0xa87 common/libcommon.a(console.o)
+ .debug_info    0x0000f403      0x2cb common/libcommon.a(decompress_ext4.o)
+ .debug_info    0x0000f6ce      0xd6e common/libcommon.a(dlmalloc.o)
+ .debug_info    0x0001043c      0x3ec common/libcommon.a(env_auto.o)
+ .debug_info    0x00010828      0x3d3 common/libcommon.a(env_common.o)
+ .debug_info    0x00010bfb      0x2de common/libcommon.a(exports.o)
+ .debug_info    0x00010ed9     0x13f3 common/libcommon.a(image.o)
+ .debug_info    0x000122cc      0xd42 common/libcommon.a(main.o)
+ .debug_info    0x0001300e      0x1ae common/libcommon.a(s_record.o)
+ .debug_info    0x000131bc      0x597 common/libcommon.a(stdio.o)
+ .debug_info    0x00013753      0x6dc common/libcommon.a(xyzModem.o)
+ .debug_info    0x00013e2f      0x3d7 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_info    0x00014206      0x10c lib_generic/libgeneric.a(crc16.o)
+ .debug_info    0x00014312      0x26a lib_generic/libgeneric.a(crc32.o)
+ .debug_info    0x0001457c      0x25b lib_generic/libgeneric.a(display_options.o)
+ .debug_info    0x000147d7      0x3f3 lib_generic/libgeneric.a(gunzip.o)
+ .debug_info    0x00014bca      0x133 lib_generic/libgeneric.a(net_utils.o)
+ .debug_info    0x00014cfd      0x885 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_info    0x00015582     0x1069 lib_generic/libgeneric.a(zlib.o)
+ .debug_info    0x000165eb       0x52 lib_generic/libgeneric.a(ctype.o)
+ .debug_info    0x0001663d      0x12b lib_generic/libgeneric.a(div64.o)
+ .debug_info    0x00016768      0x8e9 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_info    0x00017051      0x452 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_info    0x000174a3     0x2a68 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_info    0x00019f0b      0x112 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_info    0x0001a01d     0x2f72 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_info    0x0001cf8f      0x621 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_info    0x0001d5b0     0x5631 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_info    0x00022be1     0x1a4a cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_info    0x0002462b     0x31b9 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_info    0x000277e4      0x15e cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_info    0x00027942      0x56a cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_info    0x00027eac      0x783 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_info    0x0002862f      0x296 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_info    0x000288c5      0xa90 lib_arm/libarm.a(bootm.o)
+ .debug_info    0x00029355       0xa4 lib_arm/libarm.a(cache.o)
+ .debug_info    0x000293f9     0x1a06 fs/fat/libfat.a(fat.o)
+ .debug_info    0x0002adff     0x1bdf fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_info    0x0002c9de      0x3b9 fs/ext2/libext2fs.a(dev.o)
+ .debug_info    0x0002cd97      0x653 disk/libdisk.a(part.o)
+ .debug_info    0x0002d3ea      0x70e disk/libdisk.a(part_dos.o)
+ .debug_info    0x0002daf8      0xb63 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_info    0x0002e65b     0x1a69 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_info    0x000300c4       0x9f /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .debug_info    0x00030163      0x105 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .debug_info    0x00030268      0x105 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .debug_info    0x0003036d      0x105 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .debug_info    0x00030472      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .debug_info    0x00030576      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .debug_info    0x0003067a      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .debug_info    0x0003077e      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .debug_info    0x00030882      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .debug_info    0x00030986      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x00030a8a      0x104 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .debug_info    0x00030b8e      0x105 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.debug_abbrev   0x00000000     0x9764
+ .debug_abbrev  0x00000000       0x14 cpu/arm_cortexa9/start.o
+ .debug_abbrev  0x00000014       0x14 cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .debug_abbrev  0x00000028       0x14 board/samsung/smdkc210/lowlevel_init.o
+ .debug_abbrev  0x0000003c       0xaa common/ace_sha1.o
+ .debug_abbrev  0x000000e6      0x316 lib_generic/libgeneric.a(string.o)
+ .debug_abbrev  0x000003fc       0xf3 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_abbrev  0x000004ef      0x32b cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_abbrev  0x0000081a      0x161 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_abbrev  0x0000097b      0x160 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_abbrev  0x00000adb      0x202 lib_arm/libarm.a(board.o)
+ .debug_abbrev  0x00000cdd      0x461 drivers/mmc/libmmc.a(mmc.o)
+ .debug_abbrev  0x0000113e      0x161 common/libcommon.a(cmd_bdinfo.o)
+ .debug_abbrev  0x0000129f       0xdf common/libcommon.a(cmd_boot.o)
+ .debug_abbrev  0x0000137e      0x35e common/libcommon.a(cmd_bootm.o)
+ .debug_abbrev  0x000016dc      0x185 common/libcommon.a(cmd_console.o)
+ .debug_abbrev  0x00001861       0xf7 common/libcommon.a(cmd_echo.o)
+ .debug_abbrev  0x00001958      0x1bc common/libcommon.a(cmd_elf.o)
+ .debug_abbrev  0x00001b14      0x1e4 common/libcommon.a(cmd_ext2.o)
+ .debug_abbrev  0x00001cf8      0x3f5 common/libcommon.a(cmd_fastboot.o)
+ .debug_abbrev  0x000020ed      0x163 common/libcommon.a(cmd_fat.o)
+ .debug_abbrev  0x00002250       0xd2 common/libcommon.a(cmd_help.o)
+ .debug_abbrev  0x00002322      0x189 common/libcommon.a(cmd_itest.o)
+ .debug_abbrev  0x000024ab      0x417 common/libcommon.a(cmd_load.o)
+ .debug_abbrev  0x000028c2       0xdd common/libcommon.a(cmd_max8997.o)
+ .debug_abbrev  0x0000299f       0xdd common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_abbrev  0x00002a7c      0x1bf common/libcommon.a(cmd_mem.o)
+ .debug_abbrev  0x00002c3b       0xd0 common/libcommon.a(cmd_misc.o)
+ .debug_abbrev  0x00002d0b      0x289 common/libcommon.a(cmd_mmc.o)
+ .debug_abbrev  0x00002f94      0x2ed common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_abbrev  0x00003281      0x1f6 common/libcommon.a(cmd_movi.o)
+ .debug_abbrev  0x00003477      0x288 common/libcommon.a(cmd_nvedit.o)
+ .debug_abbrev  0x000036ff      0x1bc common/libcommon.a(cmd_source.o)
+ .debug_abbrev  0x000038bb      0x10b common/libcommon.a(cmd_usbd.o)
+ .debug_abbrev  0x000039c6       0xe0 common/libcommon.a(cmd_version.o)
+ .debug_abbrev  0x00003aa6      0x1b5 common/libcommon.a(cmd_ximg.o)
+ .debug_abbrev  0x00003c5b      0x1aa common/libcommon.a(command.o)
+ .debug_abbrev  0x00003e05      0x390 common/libcommon.a(console.o)
+ .debug_abbrev  0x00004195      0x146 common/libcommon.a(decompress_ext4.o)
+ .debug_abbrev  0x000042db      0x2f6 common/libcommon.a(dlmalloc.o)
+ .debug_abbrev  0x000045d1      0x1b1 common/libcommon.a(env_auto.o)
+ .debug_abbrev  0x00004782      0x1c7 common/libcommon.a(env_common.o)
+ .debug_abbrev  0x00004949      0x110 common/libcommon.a(exports.o)
+ .debug_abbrev  0x00004a59      0x3ee common/libcommon.a(image.o)
+ .debug_abbrev  0x00004e47      0x325 common/libcommon.a(main.o)
+ .debug_abbrev  0x0000516c      0x10b common/libcommon.a(s_record.o)
+ .debug_abbrev  0x00005277      0x210 common/libcommon.a(stdio.o)
+ .debug_abbrev  0x00005487      0x2a1 common/libcommon.a(xyzModem.o)
+ .debug_abbrev  0x00005728      0x1cf board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_abbrev  0x000058f7       0xc6 lib_generic/libgeneric.a(crc16.o)
+ .debug_abbrev  0x000059bd      0x10d lib_generic/libgeneric.a(crc32.o)
+ .debug_abbrev  0x00005aca      0x11e lib_generic/libgeneric.a(display_options.o)
+ .debug_abbrev  0x00005be8      0x135 lib_generic/libgeneric.a(gunzip.o)
+ .debug_abbrev  0x00005d1d       0xdb lib_generic/libgeneric.a(net_utils.o)
+ .debug_abbrev  0x00005df8      0x2ea lib_generic/libgeneric.a(vsprintf.o)
+ .debug_abbrev  0x000060e2      0x2c0 lib_generic/libgeneric.a(zlib.o)
+ .debug_abbrev  0x000063a2       0x4b lib_generic/libgeneric.a(ctype.o)
+ .debug_abbrev  0x000063ed       0xab lib_generic/libgeneric.a(div64.o)
+ .debug_abbrev  0x00006498      0x276 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_abbrev  0x0000670e      0x1ac cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_abbrev  0x000068ba      0x348 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_abbrev  0x00006c02       0xb9 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_abbrev  0x00006cbb      0x3b7 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_abbrev  0x00007072      0x185 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_abbrev  0x000071f7      0x1f7 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_abbrev  0x000073ee      0x347 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_abbrev  0x00007735      0x27e cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_abbrev  0x000079b3       0xdb cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_abbrev  0x00007a8e      0x2a1 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_abbrev  0x00007d2f      0x1b5 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_abbrev  0x00007ee4      0x109 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_abbrev  0x00007fed      0x242 lib_arm/libarm.a(bootm.o)
+ .debug_abbrev  0x0000822f       0x57 lib_arm/libarm.a(cache.o)
+ .debug_abbrev  0x00008286      0x374 fs/fat/libfat.a(fat.o)
+ .debug_abbrev  0x000085fa      0x37f fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_abbrev  0x00008979      0x132 fs/ext2/libext2fs.a(dev.o)
+ .debug_abbrev  0x00008aab      0x1fa disk/libdisk.a(part.o)
+ .debug_abbrev  0x00008ca5      0x216 disk/libdisk.a(part_dos.o)
+ .debug_abbrev  0x00008ebb      0x367 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_abbrev  0x00009222      0x40d drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_abbrev  0x0000962f       0x59 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .debug_abbrev  0x00009688       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000969c       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x000096b0       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x000096c4       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .debug_abbrev  0x000096d8       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .debug_abbrev  0x000096ec       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .debug_abbrev  0x00009700       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .debug_abbrev  0x00009714       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .debug_abbrev  0x00009728       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x0000973c       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .debug_abbrev  0x00009750       0x14 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.debug_aranges  0x00000000      0xb40
+ .debug_aranges
+                0x00000000       0x20 cpu/arm_cortexa9/start.o
+ .debug_aranges
+                0x00000020       0x20 cpu/arm_cortexa9/s5pc210/cpu_init.o
+ .debug_aranges
+                0x00000040       0x20 board/samsung/smdkc210/lowlevel_init.o
+ .debug_aranges
+                0x00000060       0x20 common/ace_sha1.o
+ .debug_aranges
+                0x00000080       0x20 lib_generic/libgeneric.a(string.o)
+ .debug_aranges
+                0x000000a0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_aranges
+                0x000000c0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_aranges
+                0x000000e0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_aranges
+                0x00000100       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_aranges
+                0x00000120       0x20 lib_arm/libarm.a(board.o)
+ .debug_aranges
+                0x00000140       0x20 drivers/mmc/libmmc.a(mmc.o)
+ .debug_aranges
+                0x00000160       0x20 common/libcommon.a(cmd_bdinfo.o)
+ .debug_aranges
+                0x00000180       0x20 common/libcommon.a(cmd_boot.o)
+ .debug_aranges
+                0x000001a0       0x20 common/libcommon.a(cmd_bootm.o)
+ .debug_aranges
+                0x000001c0       0x20 common/libcommon.a(cmd_console.o)
+ .debug_aranges
+                0x000001e0       0x20 common/libcommon.a(cmd_echo.o)
+ .debug_aranges
+                0x00000200       0x20 common/libcommon.a(cmd_elf.o)
+ .debug_aranges
+                0x00000220       0x20 common/libcommon.a(cmd_ext2.o)
+ .debug_aranges
+                0x00000240       0x20 common/libcommon.a(cmd_fastboot.o)
+ .debug_aranges
+                0x00000260       0x20 common/libcommon.a(cmd_fat.o)
+ .debug_aranges
+                0x00000280       0x20 common/libcommon.a(cmd_help.o)
+ .debug_aranges
+                0x000002a0       0x20 common/libcommon.a(cmd_itest.o)
+ .debug_aranges
+                0x000002c0       0x20 common/libcommon.a(cmd_load.o)
+ .debug_aranges
+                0x000002e0       0x20 common/libcommon.a(cmd_max8997.o)
+ .debug_aranges
+                0x00000300       0x20 common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_aranges
+                0x00000320       0x20 common/libcommon.a(cmd_mem.o)
+ .debug_aranges
+                0x00000340       0x20 common/libcommon.a(cmd_misc.o)
+ .debug_aranges
+                0x00000360       0x20 common/libcommon.a(cmd_mmc.o)
+ .debug_aranges
+                0x00000380       0x20 common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_aranges
+                0x000003a0       0x20 common/libcommon.a(cmd_movi.o)
+ .debug_aranges
+                0x000003c0       0x20 common/libcommon.a(cmd_nvedit.o)
+ .debug_aranges
+                0x000003e0       0x20 common/libcommon.a(cmd_source.o)
+ .debug_aranges
+                0x00000400       0x20 common/libcommon.a(cmd_usbd.o)
+ .debug_aranges
+                0x00000420       0x20 common/libcommon.a(cmd_version.o)
+ .debug_aranges
+                0x00000440       0x20 common/libcommon.a(cmd_ximg.o)
+ .debug_aranges
+                0x00000460       0x20 common/libcommon.a(command.o)
+ .debug_aranges
+                0x00000480       0x20 common/libcommon.a(console.o)
+ .debug_aranges
+                0x000004a0       0x20 common/libcommon.a(decompress_ext4.o)
+ .debug_aranges
+                0x000004c0       0x20 common/libcommon.a(dlmalloc.o)
+ .debug_aranges
+                0x000004e0       0x20 common/libcommon.a(env_auto.o)
+ .debug_aranges
+                0x00000500       0x20 common/libcommon.a(env_common.o)
+ .debug_aranges
+                0x00000520       0x20 common/libcommon.a(exports.o)
+ .debug_aranges
+                0x00000540       0x20 common/libcommon.a(image.o)
+ .debug_aranges
+                0x00000560       0x20 common/libcommon.a(main.o)
+ .debug_aranges
+                0x00000580       0x20 common/libcommon.a(s_record.o)
+ .debug_aranges
+                0x000005a0       0x20 common/libcommon.a(stdio.o)
+ .debug_aranges
+                0x000005c0       0x20 common/libcommon.a(xyzModem.o)
+ .debug_aranges
+                0x000005e0       0x20 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_aranges
+                0x00000600       0x20 lib_generic/libgeneric.a(crc16.o)
+ .debug_aranges
+                0x00000620       0x20 lib_generic/libgeneric.a(crc32.o)
+ .debug_aranges
+                0x00000640       0x20 lib_generic/libgeneric.a(display_options.o)
+ .debug_aranges
+                0x00000660       0x20 lib_generic/libgeneric.a(gunzip.o)
+ .debug_aranges
+                0x00000680       0x20 lib_generic/libgeneric.a(net_utils.o)
+ .debug_aranges
+                0x000006a0       0x20 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_aranges
+                0x000006c0       0x20 lib_generic/libgeneric.a(zlib.o)
+ .debug_aranges
+                0x000006e0       0x20 lib_generic/libgeneric.a(div64.o)
+ .debug_aranges
+                0x00000700       0x20 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_aranges
+                0x00000720       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_aranges
+                0x00000740       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_aranges
+                0x00000760       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_aranges
+                0x00000780       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_aranges
+                0x000007a0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_aranges
+                0x000007c0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_aranges
+                0x000007e0       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_aranges
+                0x00000800       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_aranges
+                0x00000820       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_aranges
+                0x00000840       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_aranges
+                0x00000860       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_aranges
+                0x00000880       0x20 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_aranges
+                0x000008a0       0x20 lib_arm/libarm.a(bootm.o)
+ .debug_aranges
+                0x000008c0       0x20 lib_arm/libarm.a(cache.o)
+ .debug_aranges
+                0x000008e0       0x20 fs/fat/libfat.a(fat.o)
+ .debug_aranges
+                0x00000900       0x20 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_aranges
+                0x00000920       0x20 fs/ext2/libext2fs.a(dev.o)
+ .debug_aranges
+                0x00000940       0x20 disk/libdisk.a(part.o)
+ .debug_aranges
+                0x00000960       0x20 disk/libdisk.a(part_dos.o)
+ .debug_aranges
+                0x00000980       0x20 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_aranges
+                0x000009a0       0x20 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_aranges
+                0x000009c0       0x20 /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .debug_aranges
+                0x000009e0       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000a00       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x00000a20       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x00000a40       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubdf3.o)
+ .debug_aranges
+                0x00000a60       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivdf3.o)
+ .debug_aranges
+                0x00000a80       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_truncdfsf2.o)
+ .debug_aranges
+                0x00000aa0       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_addsubsf3.o)
+ .debug_aranges
+                0x00000ac0       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_muldivsf3.o)
+ .debug_aranges
+                0x00000ae0       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_cmpsf2.o)
+ .debug_aranges
+                0x00000b00       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_arm_fixunssfsi.o)
+ .debug_aranges
+                0x00000b20       0x20 /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_dvmd_lnx.o)
+
+.debug_frame    0x00000000     0x5b90
+ .debug_frame   0x00000000       0x30 common/ace_sha1.o
+ .debug_frame   0x00000030      0x224 lib_generic/libgeneric.a(string.o)
+ .debug_frame   0x00000254       0x38 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_frame   0x0000028c      0x1fc cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_frame   0x00000488       0x8c cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_frame   0x00000514       0xb4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_frame   0x000005c8      0x140 lib_arm/libarm.a(board.o)
+ .debug_frame   0x00000708      0x42c drivers/mmc/libmmc.a(mmc.o)
+ .debug_frame   0x00000b34       0x30 common/libcommon.a(cmd_bdinfo.o)
+ .debug_frame   0x00000b64       0x4c common/libcommon.a(cmd_boot.o)
+ .debug_frame   0x00000bb0      0x1dc common/libcommon.a(cmd_bootm.o)
+ .debug_frame   0x00000d8c       0x3c common/libcommon.a(cmd_console.o)
+ .debug_frame   0x00000dc8       0x38 common/libcommon.a(cmd_echo.o)
+ .debug_frame   0x00000e00       0xc4 common/libcommon.a(cmd_elf.o)
+ .debug_frame   0x00000ec4       0xb8 common/libcommon.a(cmd_ext2.o)
+ .debug_frame   0x00000f7c      0x2a4 common/libcommon.a(cmd_fastboot.o)
+ .debug_frame   0x00001220       0xbc common/libcommon.a(cmd_fat.o)
+ .debug_frame   0x000012dc       0x38 common/libcommon.a(cmd_help.o)
+ .debug_frame   0x00001314       0x74 common/libcommon.a(cmd_itest.o)
+ .debug_frame   0x00001388      0x1ec common/libcommon.a(cmd_load.o)
+ .debug_frame   0x00001574       0x38 common/libcommon.a(cmd_max8997.o)
+ .debug_frame   0x000015ac       0x2c common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_frame   0x000015d8      0x1d4 common/libcommon.a(cmd_mem.o)
+ .debug_frame   0x000017ac       0x38 common/libcommon.a(cmd_misc.o)
+ .debug_frame   0x000017e4       0xcc common/libcommon.a(cmd_mmc.o)
+ .debug_frame   0x000018b0      0x210 common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_frame   0x00001ac0       0x5c common/libcommon.a(cmd_movi.o)
+ .debug_frame   0x00001b1c      0x1a0 common/libcommon.a(cmd_nvedit.o)
+ .debug_frame   0x00001cbc       0x54 common/libcommon.a(cmd_source.o)
+ .debug_frame   0x00001d10       0x30 common/libcommon.a(cmd_usbd.o)
+ .debug_frame   0x00001d40       0x2c common/libcommon.a(cmd_version.o)
+ .debug_frame   0x00001d6c       0x40 common/libcommon.a(cmd_ximg.o)
+ .debug_frame   0x00001dac       0xb8 common/libcommon.a(command.o)
+ .debug_frame   0x00001e64      0x274 common/libcommon.a(console.o)
+ .debug_frame   0x000020d8       0x60 common/libcommon.a(decompress_ext4.o)
+ .debug_frame   0x00002138      0x174 common/libcommon.a(dlmalloc.o)
+ .debug_frame   0x000022ac      0x110 common/libcommon.a(env_auto.o)
+ .debug_frame   0x000023bc       0x94 common/libcommon.a(env_common.o)
+ .debug_frame   0x00002450       0x60 common/libcommon.a(exports.o)
+ .debug_frame   0x000024b0      0x25c common/libcommon.a(image.o)
+ .debug_frame   0x0000270c      0x14c common/libcommon.a(main.o)
+ .debug_frame   0x00002858       0x54 common/libcommon.a(s_record.o)
+ .debug_frame   0x000028ac       0xa0 common/libcommon.a(stdio.o)
+ .debug_frame   0x0000294c      0x154 common/libcommon.a(xyzModem.o)
+ .debug_frame   0x00002aa0       0xc4 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_frame   0x00002b64       0x2c lib_generic/libgeneric.a(crc16.o)
+ .debug_frame   0x00002b90       0x60 lib_generic/libgeneric.a(crc32.o)
+ .debug_frame   0x00002bf0       0x88 lib_generic/libgeneric.a(display_options.o)
+ .debug_frame   0x00002c78       0x84 lib_generic/libgeneric.a(gunzip.o)
+ .debug_frame   0x00002cfc       0x3c lib_generic/libgeneric.a(net_utils.o)
+ .debug_frame   0x00002d38      0x1a8 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_frame   0x00002ee0      0x154 lib_generic/libgeneric.a(zlib.o)
+ .debug_frame   0x00003034       0x3c lib_generic/libgeneric.a(div64.o)
+ .debug_frame   0x00003070      0x184 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_frame   0x000031f4       0x70 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_frame   0x00003264      0x4c0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_frame   0x00003724       0x5c cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_frame   0x00003780      0x578 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_frame   0x00003cf8      0x100 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_frame   0x00003df8      0xbf4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_frame   0x000049ec      0x34c cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_frame   0x00004d38      0x334 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_frame   0x0000506c       0x68 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_frame   0x000050d4      0x120 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_frame   0x000051f4       0xac cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_frame   0x000052a0       0x50 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_frame   0x000052f0       0x48 lib_arm/libarm.a(bootm.o)
+ .debug_frame   0x00005338       0x20 lib_arm/libarm.a(cache.o)
+ .debug_frame   0x00005358      0x1ec fs/fat/libfat.a(fat.o)
+ .debug_frame   0x00005544      0x1d4 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_frame   0x00005718       0x5c fs/ext2/libext2fs.a(dev.o)
+ .debug_frame   0x00005774       0xbc disk/libdisk.a(part.o)
+ .debug_frame   0x00005830       0xc4 disk/libdisk.a(part_dos.o)
+ .debug_frame   0x000058f4       0xd0 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_frame   0x000059c4      0x148 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_frame   0x00005b0c       0x2c /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+ .debug_frame   0x00005b38       0x2c /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00005b64       0x2c /home/dx/share/linux_4412/tools/opt/FriendlyARM/toolschain/4.4.3/bin/../lib/gcc/arm-none-linux-gnueabi/4.4.3/libgcc.a(_divsi3.o)
+
+.debug_loc      0x00000000    0x19ceb
+ .debug_loc     0x00000000       0x97 common/ace_sha1.o
+ .debug_loc     0x00000097      0x6c8 lib_generic/libgeneric.a(string.o)
+ .debug_loc     0x0000075f       0x5c cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_loc     0x000007bb      0x374 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_loc     0x00000b2f       0x7e cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_loc     0x00000bad       0xe9 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_loc     0x00000c96       0xce lib_arm/libarm.a(board.o)
+ .debug_loc     0x00000d64      0xdf2 drivers/mmc/libmmc.a(mmc.o)
+ .debug_loc     0x00001b56       0x6b common/libcommon.a(cmd_bdinfo.o)
+ .debug_loc     0x00001bc1      0x149 common/libcommon.a(cmd_boot.o)
+ .debug_loc     0x00001d0a      0x9ac common/libcommon.a(cmd_bootm.o)
+ .debug_loc     0x000026b6       0x6b common/libcommon.a(cmd_console.o)
+ .debug_loc     0x00002721       0xd6 common/libcommon.a(cmd_echo.o)
+ .debug_loc     0x000027f7      0x2cf common/libcommon.a(cmd_elf.o)
+ .debug_loc     0x00002ac6      0x4ef common/libcommon.a(cmd_ext2.o)
+ .debug_loc     0x00002fb5      0xfcb common/libcommon.a(cmd_fastboot.o)
+ .debug_loc     0x00003f80      0x44c common/libcommon.a(cmd_fat.o)
+ .debug_loc     0x000043cc       0xa2 common/libcommon.a(cmd_help.o)
+ .debug_loc     0x0000446e      0x2e7 common/libcommon.a(cmd_itest.o)
+ .debug_loc     0x00004755      0x905 common/libcommon.a(cmd_load.o)
+ .debug_loc     0x0000505a       0x81 common/libcommon.a(cmd_max8997.o)
+ .debug_loc     0x000050db       0x89 common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_loc     0x00005164      0xbec common/libcommon.a(cmd_mem.o)
+ .debug_loc     0x00005d50       0x8c common/libcommon.a(cmd_misc.o)
+ .debug_loc     0x00005ddc      0x966 common/libcommon.a(cmd_mmc.o)
+ .debug_loc     0x00006742      0x6f5 common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_loc     0x00006e37      0x3e6 common/libcommon.a(cmd_movi.o)
+ .debug_loc     0x0000721d      0x799 common/libcommon.a(cmd_nvedit.o)
+ .debug_loc     0x000079b6      0x1d5 common/libcommon.a(cmd_source.o)
+ .debug_loc     0x00007b8b       0xad common/libcommon.a(cmd_usbd.o)
+ .debug_loc     0x00007c38       0x6b common/libcommon.a(cmd_version.o)
+ .debug_loc     0x00007ca3      0x181 common/libcommon.a(cmd_ximg.o)
+ .debug_loc     0x00007e24      0x458 common/libcommon.a(command.o)
+ .debug_loc     0x0000827c      0x553 common/libcommon.a(console.o)
+ .debug_loc     0x000087cf      0x10a common/libcommon.a(decompress_ext4.o)
+ .debug_loc     0x000088d9     0x1321 common/libcommon.a(dlmalloc.o)
+ .debug_loc     0x00009bfa       0xae common/libcommon.a(env_auto.o)
+ .debug_loc     0x00009ca8       0xe0 common/libcommon.a(env_common.o)
+ .debug_loc     0x00009d88       0x2c common/libcommon.a(exports.o)
+ .debug_loc     0x00009db4      0x826 common/libcommon.a(image.o)
+ .debug_loc     0x0000a5da      0xfed common/libcommon.a(main.o)
+ .debug_loc     0x0000b5c7      0x21c common/libcommon.a(s_record.o)
+ .debug_loc     0x0000b7e3       0xf6 common/libcommon.a(stdio.o)
+ .debug_loc     0x0000b8d9      0x4f5 common/libcommon.a(xyzModem.o)
+ .debug_loc     0x0000bdce      0x104 board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_loc     0x0000bed2       0x50 lib_generic/libgeneric.a(crc16.o)
+ .debug_loc     0x0000bf22      0x182 lib_generic/libgeneric.a(crc32.o)
+ .debug_loc     0x0000c0a4      0x1bb lib_generic/libgeneric.a(display_options.o)
+ .debug_loc     0x0000c25f      0x28e lib_generic/libgeneric.a(gunzip.o)
+ .debug_loc     0x0000c4ed       0x84 lib_generic/libgeneric.a(net_utils.o)
+ .debug_loc     0x0000c571      0xa3d lib_generic/libgeneric.a(vsprintf.o)
+ .debug_loc     0x0000cfae     0x16fc lib_generic/libgeneric.a(zlib.o)
+ .debug_loc     0x0000e6aa       0xc6 lib_generic/libgeneric.a(div64.o)
+ .debug_loc     0x0000e770      0x477 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_loc     0x0000ebe7     0x1330 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_loc     0x0000ff17       0x51 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_loc     0x0000ff68     0x15ab cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_loc     0x00011513      0x23c cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_loc     0x0001174f     0x26c2 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_loc     0x00013e11     0x126b cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_loc     0x0001507c     0x1468 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_loc     0x000164e4       0x98 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_loc     0x0001657c      0x502 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_loc     0x00016a7e      0x115 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_loc     0x00016b93       0x92 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_loc     0x00016c25      0x14c lib_arm/libarm.a(bootm.o)
+ .debug_loc     0x00016d71     0x102d fs/fat/libfat.a(fat.o)
+ .debug_loc     0x00017d9e      0xe7a fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_loc     0x00018c18      0x1b1 fs/ext2/libext2fs.a(dev.o)
+ .debug_loc     0x00018dc9      0x1db disk/libdisk.a(part.o)
+ .debug_loc     0x00018fa4      0x363 disk/libdisk.a(part_dos.o)
+ .debug_loc     0x00019307      0x326 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_loc     0x0001962d      0x681 drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_loc     0x00019cae       0x3d /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+
+.debug_pubnames
+                0x00000000     0x4b55
+ .debug_pubnames
+                0x00000000       0x44 common/ace_sha1.o
+ .debug_pubnames
+                0x00000044      0x130 lib_generic/libgeneric.a(string.o)
+ .debug_pubnames
+                0x00000174       0x28 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_pubnames
+                0x0000019c      0x196 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_pubnames
+                0x00000332       0x88 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_pubnames
+                0x000003ba       0xa4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+ .debug_pubnames
+                0x0000045e      0x11f lib_arm/libarm.a(board.o)
+ .debug_pubnames
+                0x0000057d      0x25a drivers/mmc/libmmc.a(mmc.o)
+ .debug_pubnames
+                0x000007d7       0x3f common/libcommon.a(cmd_bdinfo.o)
+ .debug_pubnames
+                0x00000816       0x56 common/libcommon.a(cmd_boot.o)
+ .debug_pubnames
+                0x0000086c       0xfb common/libcommon.a(cmd_bootm.o)
+ .debug_pubnames
+                0x00000967       0x3a common/libcommon.a(cmd_console.o)
+ .debug_pubnames
+                0x000009a1       0x34 common/libcommon.a(cmd_echo.o)
+ .debug_pubnames
+                0x000009d5       0x9b common/libcommon.a(cmd_elf.o)
+ .debug_pubnames
+                0x00000a70       0xcf common/libcommon.a(cmd_ext2.o)
+ .debug_pubnames
+                0x00000b3f      0x179 common/libcommon.a(cmd_fastboot.o)
+ .debug_pubnames
+                0x00000cb8       0xba common/libcommon.a(cmd_fat.o)
+ .debug_pubnames
+                0x00000d72       0x53 common/libcommon.a(cmd_help.o)
+ .debug_pubnames
+                0x00000dc5       0x53 common/libcommon.a(cmd_itest.o)
+ .debug_pubnames
+                0x00000e18      0x1ab common/libcommon.a(cmd_load.o)
+ .debug_pubnames
+                0x00000fc3       0x3a common/libcommon.a(cmd_max8997.o)
+ .debug_pubnames
+                0x00000ffd       0x36 common/libcommon.a(cmd_mdmupgrade.o)
+ .debug_pubnames
+                0x00001033      0x1d1 common/libcommon.a(cmd_mem.o)
+ .debug_pubnames
+                0x00001204       0x36 common/libcommon.a(cmd_misc.o)
+ .debug_pubnames
+                0x0000123a       0x94 common/libcommon.a(cmd_mmc.o)
+ .debug_pubnames
+                0x000012ce      0x13d common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_pubnames
+                0x0000140b       0x61 common/libcommon.a(cmd_movi.o)
+ .debug_pubnames
+                0x0000146c      0x11c common/libcommon.a(cmd_nvedit.o)
+ .debug_pubnames
+                0x00001588       0x43 common/libcommon.a(cmd_source.o)
+ .debug_pubnames
+                0x000015cb       0x37 common/libcommon.a(cmd_usbd.o)
+ .debug_pubnames
+                0x00001602       0x3a common/libcommon.a(cmd_version.o)
+ .debug_pubnames
+                0x0000163c       0x3e common/libcommon.a(cmd_ximg.o)
+ .debug_pubnames
+                0x0000167a       0x61 common/libcommon.a(command.o)
+ .debug_pubnames
+                0x000016db      0x147 common/libcommon.a(console.o)
+ .debug_pubnames
+                0x00001822       0x44 common/libcommon.a(decompress_ext4.o)
+ .debug_pubnames
+                0x00001866       0xfd common/libcommon.a(dlmalloc.o)
+ .debug_pubnames
+                0x00001963      0x123 common/libcommon.a(env_auto.o)
+ .debug_pubnames
+                0x00001a86       0xc0 common/libcommon.a(env_common.o)
+ .debug_pubnames
+                0x00001b46       0x3c common/libcommon.a(exports.o)
+ .debug_pubnames
+                0x00001b82      0x22c common/libcommon.a(image.o)
+ .debug_pubnames
+                0x00001dae       0xcd common/libcommon.a(main.o)
+ .debug_pubnames
+                0x00001e7b       0x22 common/libcommon.a(s_record.o)
+ .debug_pubnames
+                0x00001e9d       0x96 common/libcommon.a(stdio.o)
+ .debug_pubnames
+                0x00001f33       0xd5 common/libcommon.a(xyzModem.o)
+ .debug_pubnames
+                0x00002008       0xbd board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+ .debug_pubnames
+                0x000020c5       0x20 lib_generic/libgeneric.a(crc16.o)
+ .debug_pubnames
+                0x000020e5       0x3b lib_generic/libgeneric.a(crc32.o)
+ .debug_pubnames
+                0x00002120       0x46 lib_generic/libgeneric.a(display_options.o)
+ .debug_pubnames
+                0x00002166       0x3d lib_generic/libgeneric.a(gunzip.o)
+ .debug_pubnames
+                0x000021a3       0x23 lib_generic/libgeneric.a(net_utils.o)
+ .debug_pubnames
+                0x000021c6       0x87 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_pubnames
+                0x0000224d       0xb4 lib_generic/libgeneric.a(zlib.o)
+ .debug_pubnames
+                0x00002301       0x1d lib_generic/libgeneric.a(ctype.o)
+ .debug_pubnames
+                0x0000231e       0x21 lib_generic/libgeneric.a(div64.o)
+ .debug_pubnames
+                0x0000233f      0x144 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+ .debug_pubnames
+                0x00002483       0x74 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_pubnames
+                0x000024f7      0x638 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_pubnames
+                0x00002b2f       0x6e cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+ .debug_pubnames
+                0x00002b9d      0x81e cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_pubnames
+                0x000033bb       0xc4 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+ .debug_pubnames
+                0x0000347f      0xbb0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+ .debug_pubnames
+                0x0000402f      0x2b7 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_pubnames
+                0x000042e6      0x239 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_pubnames
+                0x0000451f       0x44 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+ .debug_pubnames
+                0x00004563       0x5a cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_pubnames
+                0x000045bd       0x9b cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+ .debug_pubnames
+                0x00004658       0x39 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+ .debug_pubnames
+                0x00004691       0x3e lib_arm/libarm.a(bootm.o)
+ .debug_pubnames
+                0x000046cf       0x22 lib_arm/libarm.a(cache.o)
+ .debug_pubnames
+                0x000046f1       0xdd fs/fat/libfat.a(fat.o)
+ .debug_pubnames
+                0x000047ce      0x189 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_pubnames
+                0x00004957       0x3c fs/ext2/libext2fs.a(dev.o)
+ .debug_pubnames
+                0x00004993       0x67 disk/libdisk.a(part.o)
+ .debug_pubnames
+                0x000049fa       0x52 disk/libdisk.a(part_dos.o)
+ .debug_pubnames
+                0x00004a4c       0x3e drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_pubnames
+                0x00004a8a       0xaf drivers/mmc/libmmc.a(s5p_mshc.o)
+ .debug_pubnames
+                0x00004b39       0x1c /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+
+.debug_str      0x00000000     0xcf6d
+ .debug_str     0x00000000       0xe8 common/ace_sha1.o
+                                0x121 (size before relaxing)
+ .debug_str     0x000000e8      0x12d lib_generic/libgeneric.a(string.o)
+                                0x1e7 (size before relaxing)
+ .debug_str     0x00000215       0xc1 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+                                0x16a (size before relaxing)
+ .debug_str     0x000002d6      0x1ca cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+                                0x2ed (size before relaxing)
+ .debug_str     0x000004a0       0x79 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+                                0x17e (size before relaxing)
+ .debug_str     0x00000519      0x14c cpu/arm_cortexa9/s5pc210/libs5pc210.a(movi.o)
+                                0x26e (size before relaxing)
+ .debug_str     0x00000665      0x23e lib_arm/libarm.a(board.o)
+                                0x301 (size before relaxing)
+ .debug_str     0x000008a3      0x546 drivers/mmc/libmmc.a(mmc.o)
+                                0x794 (size before relaxing)
+ .debug_str     0x00000de9       0x6c common/libcommon.a(cmd_bdinfo.o)
+                                0x212 (size before relaxing)
+ .debug_str     0x00000e55       0x45 common/libcommon.a(cmd_boot.o)
+                                0x175 (size before relaxing)
+ .debug_str     0x00000e9a      0x478 common/libcommon.a(cmd_bootm.o)
+                                0x6d7 (size before relaxing)
+ .debug_str     0x00001312       0x52 common/libcommon.a(cmd_console.o)
+                                0x1be (size before relaxing)
+ .debug_str     0x00001364       0x2b common/libcommon.a(cmd_echo.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x0000138f      0x1cd common/libcommon.a(cmd_elf.o)
+                                0x348 (size before relaxing)
+ .debug_str     0x0000155c      0x12a common/libcommon.a(cmd_ext2.o)
+                                0x31a (size before relaxing)
+ .debug_str     0x00001686      0x4f7 common/libcommon.a(cmd_fastboot.o)
+                                0x952 (size before relaxing)
+ .debug_str     0x00001b7d       0x92 common/libcommon.a(cmd_fat.o)
+                                0x270 (size before relaxing)
+ .debug_str     0x00001c0f       0x5c common/libcommon.a(cmd_help.o)
+                                0x183 (size before relaxing)
+ .debug_str     0x00001c6b       0x8a common/libcommon.a(cmd_itest.o)
+                                0x1bf (size before relaxing)
+ .debug_str     0x00001cf5      0x445 common/libcommon.a(cmd_load.o)
+                                0x6bd (size before relaxing)
+ .debug_str     0x0000213a       0x37 common/libcommon.a(cmd_max8997.o)
+                                0x164 (size before relaxing)
+ .debug_str     0x00002171       0x2d common/libcommon.a(cmd_mdmupgrade.o)
+                                0x14c (size before relaxing)
+ .debug_str     0x0000219e      0x215 common/libcommon.a(cmd_mem.o)
+                                0x387 (size before relaxing)
+ .debug_str     0x000023b3       0x27 common/libcommon.a(cmd_misc.o)
+                                0x158 (size before relaxing)
+ .debug_str     0x000023da      0x104 common/libcommon.a(cmd_mmc.o)
+                                0x448 (size before relaxing)
+ .debug_str     0x000024de      0x1ff common/libcommon.a(cmd_mmc_fdisk.o)
+                                0x52c (size before relaxing)
+ .debug_str     0x000026dd       0x5c common/libcommon.a(cmd_movi.o)
+                                0x42a (size before relaxing)
+ .debug_str     0x00002739      0x103 common/libcommon.a(cmd_nvedit.o)
+                                0x350 (size before relaxing)
+ .debug_str     0x0000283c       0x35 common/libcommon.a(cmd_source.o)
+                                0x28d (size before relaxing)
+ .debug_str     0x00002871       0x66 common/libcommon.a(cmd_usbd.o)
+                                0x185 (size before relaxing)
+ .debug_str     0x000028d7       0x2e common/libcommon.a(cmd_version.o)
+                                0x15c (size before relaxing)
+ .debug_str     0x00002905       0x2f common/libcommon.a(cmd_ximg.o)
+                                0x28b (size before relaxing)
+ .debug_str     0x00002934       0x7c common/libcommon.a(command.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x000029b0      0x153 common/libcommon.a(console.o)
+                                0x4fb (size before relaxing)
+ .debug_str     0x00002b03       0xfc common/libcommon.a(decompress_ext4.o)
+                                0x255 (size before relaxing)
+ .debug_str     0x00002bff      0x2f0 common/libcommon.a(dlmalloc.o)
+                                0x4f9 (size before relaxing)
+ .debug_str     0x00002eef      0x10a common/libcommon.a(env_auto.o)
+                                0x2d6 (size before relaxing)
+ .debug_str     0x00002ff9       0x79 common/libcommon.a(env_common.o)
+                                0x25f (size before relaxing)
+ .debug_str     0x00003072       0x1f common/libcommon.a(exports.o)
+                                0x31a (size before relaxing)
+ .debug_str     0x00003091      0x2d4 common/libcommon.a(image.o)
+                                0x733 (size before relaxing)
+ .debug_str     0x00003365      0x1f7 common/libcommon.a(main.o)
+                                0x41b (size before relaxing)
+ .debug_str     0x0000355c       0x3a common/libcommon.a(s_record.o)
+                                0x129 (size before relaxing)
+ .debug_str     0x00003596       0x64 common/libcommon.a(stdio.o)
+                                0x291 (size before relaxing)
+ .debug_str     0x000035fa      0x1b0 common/libcommon.a(xyzModem.o)
+                                0x2ea (size before relaxing)
+ .debug_str     0x000037aa       0xfb board/samsung/smdkc210/libsmdkc210.a(smdkc210.o)
+                                0x275 (size before relaxing)
+ .debug_str     0x000038a5       0x1c lib_generic/libgeneric.a(crc16.o)
+                                0x109 (size before relaxing)
+ .debug_str     0x000038c1       0x45 lib_generic/libgeneric.a(crc32.o)
+                                0x15b (size before relaxing)
+ .debug_str     0x00003906       0x3f lib_generic/libgeneric.a(display_options.o)
+                                0x195 (size before relaxing)
+ .debug_str     0x00003945       0xdb lib_generic/libgeneric.a(gunzip.o)
+                                0x1f5 (size before relaxing)
+ .debug_str     0x00003a20       0x19 lib_generic/libgeneric.a(net_utils.o)
+                                0x115 (size before relaxing)
+ .debug_str     0x00003a39       0xc5 lib_generic/libgeneric.a(vsprintf.o)
+                                0x248 (size before relaxing)
+ .debug_str     0x00003afe      0x2e9 lib_generic/libgeneric.a(zlib.o)
+                                0x599 (size before relaxing)
+ .debug_str     0x00003de7        0x8 lib_generic/libgeneric.a(ctype.o)
+                                 0x6c (size before relaxing)
+ .debug_str     0x00003def       0x13 lib_generic/libgeneric.a(div64.o)
+                                0x113 (size before relaxing)
+ .debug_str     0x00003e02      0x174 cpu/arm_cortexa9/libarm_cortexa9.a(cpu.o)
+                                0x2e3 (size before relaxing)
+ .debug_str     0x00003f76      0x113 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+                                0x2b0 (size before relaxing)
+ .debug_str     0x00004089      0xf4a cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+                               0x119f (size before relaxing)
+ .debug_str     0x00004fd3       0x3e cpu/arm_cortexa9/s5pc210/libs5pc210.a(cpu_info.o)
+                                0x13f (size before relaxing)
+ .debug_str     0x00005011      0x745 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+                               0x14f2 (size before relaxing)
+ .debug_str     0x00005756      0x490 cpu/arm_cortexa9/s5pc210/libs5pc210.a(pmic.o)
+                                0x5b8 (size before relaxing)
+ .debug_str     0x00005be6     0x244e cpu/arm_cortexa9/s5pc210/libs5pc210.a(gpio.o)
+                               0x2745 (size before relaxing)
+ .debug_str     0x00008034      0x629 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+                                0x970 (size before relaxing)
+ .debug_str     0x0000865d     0x2e71 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+                               0x3091 (size before relaxing)
+ .debug_str     0x0000b4ce       0x60 cpu/arm_cortexa9/s5pc210/libs5pc210.a(speed.o)
+                                0x14b (size before relaxing)
+ .debug_str     0x0000b52e       0xbe cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+                                0x203 (size before relaxing)
+ .debug_str     0x0000b5ec       0xe2 cpu/arm_cortexa9/s5pc210/libs5pc210.a(setup_hsmmc.o)
+                                0x3a8 (size before relaxing)
+ .debug_str     0x0000b6ce       0x35 cpu/arm_cortexa9/s5pc210/libs5pc210.a(recovery.o)
+                                0x1c7 (size before relaxing)
+ .debug_str     0x0000b703      0x231 lib_arm/libarm.a(bootm.o)
+                                0x5c9 (size before relaxing)
+ .debug_str     0x0000b934       0x22 lib_arm/libarm.a(cache.o)
+                                 0xf6 (size before relaxing)
+ .debug_str     0x0000b956      0x568 fs/fat/libfat.a(fat.o)
+                                0x7b7 (size before relaxing)
+ .debug_str     0x0000bebe      0xad1 fs/ext2/libext2fs.a(ext2fs.o)
+                                0xdb4 (size before relaxing)
+ .debug_str     0x0000c98f       0x6a fs/ext2/libext2fs.a(dev.o)
+                                0x21b (size before relaxing)
+ .debug_str     0x0000c9f9       0xcc disk/libdisk.a(part.o)
+                                0x2ef (size before relaxing)
+ .debug_str     0x0000cac5      0x13f disk/libdisk.a(part_dos.o)
+                                0x306 (size before relaxing)
+ .debug_str     0x0000cc04       0xd6 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+                                0x4c0 (size before relaxing)
+ .debug_str     0x0000ccda      0x278 drivers/mmc/libmmc.a(s5p_mshc.o)
+                                0x6b2 (size before relaxing)
+ .debug_str     0x0000cf52       0x1b /home/dx/share/linux_4412/project/uboot/iTop4412_uboot/lib_arm/eabi_compat.o
+                                 0xef (size before relaxing)
+
+.debug_ranges   0x00000000     0x46e0
+ .debug_ranges  0x00000000       0x90 lib_generic/libgeneric.a(string.o)
+ .debug_ranges  0x00000090       0x70 cpu/arm_cortexa9/s5pc210/libs5pc210.a(nand_cp.o)
+ .debug_ranges  0x00000100      0x390 cpu/arm_cortexa9/s5pc210/libs5pc210.a(interrupts.o)
+ .debug_ranges  0x00000490      0x180 cpu/arm_cortexa9/s5pc210/libs5pc210.a(onenand_cp.o)
+ .debug_ranges  0x00000610       0x18 lib_arm/libarm.a(board.o)
+ .debug_ranges  0x00000628       0xb8 drivers/mmc/libmmc.a(mmc.o)
+ .debug_ranges  0x000006e0       0x70 common/libcommon.a(cmd_bootm.o)
+ .debug_ranges  0x00000750       0x18 common/libcommon.a(cmd_elf.o)
+ .debug_ranges  0x00000768      0x120 common/libcommon.a(cmd_fastboot.o)
+ .debug_ranges  0x00000888      0x1c0 common/libcommon.a(cmd_load.o)
+ .debug_ranges  0x00000a48       0x38 common/libcommon.a(cmd_mem.o)
+ .debug_ranges  0x00000a80       0x30 common/libcommon.a(cmd_mmc.o)
+ .debug_ranges  0x00000ab0       0x50 common/libcommon.a(cmd_mmc_fdisk.o)
+ .debug_ranges  0x00000b00       0x90 common/libcommon.a(cmd_nvedit.o)
+ .debug_ranges  0x00000b90       0x18 common/libcommon.a(cmd_source.o)
+ .debug_ranges  0x00000ba8       0x50 common/libcommon.a(command.o)
+ .debug_ranges  0x00000bf8       0x30 common/libcommon.a(decompress_ext4.o)
+ .debug_ranges  0x00000c28       0xd0 common/libcommon.a(dlmalloc.o)
+ .debug_ranges  0x00000cf8       0x30 common/libcommon.a(env_common.o)
+ .debug_ranges  0x00000d28       0xa8 common/libcommon.a(image.o)
+ .debug_ranges  0x00000dd0       0xf8 common/libcommon.a(main.o)
+ .debug_ranges  0x00000ec8       0x68 common/libcommon.a(stdio.o)
+ .debug_ranges  0x00000f30       0x18 lib_generic/libgeneric.a(net_utils.o)
+ .debug_ranges  0x00000f48       0x68 lib_generic/libgeneric.a(vsprintf.o)
+ .debug_ranges  0x00000fb0       0x30 lib_generic/libgeneric.a(zlib.o)
+ .debug_ranges  0x00000fe0       0x30 cpu/arm_cortexa9/s5pc210/libs5pc210.a(serial.o)
+ .debug_ranges  0x00001010      0xc68 cpu/arm_cortexa9/s5pc210/libs5pc210.a(usbd-otg-hs.o)
+ .debug_ranges  0x00001c78      0xc98 cpu/arm_cortexa9/s5pc210/libs5pc210.a(fastboot.o)
+ .debug_ranges  0x00002910      0x5c0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(i2c.o)
+ .debug_ranges  0x00002ed0      0xdc0 cpu/arm_cortexa9/s5pc210/libs5pc210.a(cmu.o)
+ .debug_ranges  0x00003c90       0x48 cpu/arm_cortexa9/s5pc210/libs5pc210.a(max8997.o)
+ .debug_ranges  0x00003cd8       0xa0 lib_arm/libarm.a(bootm.o)
+ .debug_ranges  0x00003d78      0x298 fs/fat/libfat.a(fat.o)
+ .debug_ranges  0x00004010      0x258 fs/ext2/libext2fs.a(ext2fs.o)
+ .debug_ranges  0x00004268       0xa0 disk/libdisk.a(part_dos.o)
+ .debug_ranges  0x00004308       0x50 drivers/mmc/libmmc.a(s3c_hsmmc.o)
+ .debug_ranges  0x00004358      0x388 drivers/mmc/libmmc.a(s5p_mshc.o)

@@ -1,0 +1,1 @@
+/home/dx/share/linux_4412/project/uboot/iTop4412_uboot/board/samsung/smdkc210/lowlevel_init_SCP.S
